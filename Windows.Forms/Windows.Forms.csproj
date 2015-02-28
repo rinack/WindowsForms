@@ -47,74 +47,100 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\Common\ColorTable.cs" />
-    <Compile Include="Controls\Enums\ClassStyle.cs" />
-    <Compile Include="Controls\Enums\ControlState.cs" />
-    <Compile Include="Controls\Enums\EDirection.cs" />
-    <Compile Include="Controls\Enums\EItemType.cs" />
-    <Compile Include="Controls\Enums\EMouseState.cs" />
-    <Compile Include="Controls\Enums\ESysButton.cs" />
-    <Compile Include="Controls\Enums\ETabStripItemChangeTypes.cs" />
-    <Compile Include="Controls\Enums\MouseOperate.cs" />
-    <Compile Include="Controls\Enums\SystemButtonState.cs" />
-    <Compile Include="Controls\Enums\WindowStyle.cs" />
-    <Compile Include="Controls\Enums\WindowStyleEx.cs" />
-    <Compile Include="Controls\Forms\Metro\DirectionButton.cs">
+    <Compile Include="Common\ColorTable.cs" />
+    <Compile Include="Controls\ControlsEx\QQButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\Metro\MetroForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Controls\ControlsEx\QQCheckBox.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\Metro\MetroForm.Designer.cs">
-      <DependentUpon>MetroForm.cs</DependentUpon>
+    <Compile Include="Controls\ControlsEx\QQRadioButton.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\Metro\MetroItem.cs" />
-    <Compile Include="Controls\Forms\Metro\MetroItemCollection.cs" />
-    <Compile Include="Controls\Forms\Metro\MetroRenderer.cs" />
-    <Compile Include="Controls\Forms\Metro\MetroToolStripRenderer.cs" />
-    <Compile Include="Controls\Forms\ScrollbarEx\CustomScrollbar.cs">
+    <Compile Include="Controls\ControlsEx\QQTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlsEx\QQTextBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlsEx\QQTextBoxEx.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\ScrollbarEx\CustomScrollbar.Designer.cs">
+    <Compile Include="Controls\ControlsEx\QQToolStripRenderer.cs" />
+    <Compile Include="Controls\ControlsEx\TabStripCloseButton.cs" />
+    <Compile Include="Controls\ControlsEx\TabStripMenuGlyph.cs" />
+    <Compile Include="Controls\ControlsEx\ToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlsEx\ToolItem.cs" />
+    <Compile Include="Controls\ControlsEx\ToolItemCollection.cs" />
+    <Compile Include="Enums\ClassStyle.cs" />
+    <Compile Include="Enums\ControlState.cs" />
+    <Compile Include="Enums\EDirection.cs" />
+    <Compile Include="Enums\EItemType.cs" />
+    <Compile Include="Enums\EMouseState.cs" />
+    <Compile Include="Enums\ESysButton.cs" />
+    <Compile Include="Enums\ETabStripItemChangeTypes.cs" />
+    <Compile Include="Enums\MouseOperate.cs" />
+    <Compile Include="Enums\SystemButtonState.cs" />
+    <Compile Include="Enums\WindowStyle.cs" />
+    <Compile Include="Enums\WindowStyleEx.cs" />
+    <Compile Include="Controls\Metro\DirectionButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Metro\MetroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Metro\MetroForm.Designer.cs">
+      <DependentUpon>MetroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metro\MetroItem.cs" />
+    <Compile Include="Controls\Metro\MetroItemCollection.cs" />
+    <Compile Include="Controls\Metro\MetroRenderer.cs" />
+    <Compile Include="Controls\Metro\MetroToolStripRenderer.cs" />
+    <Compile Include="Controls\ScrollbarEx\CustomScrollbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ScrollbarEx\CustomScrollbar.Designer.cs">
       <DependentUpon>CustomScrollbar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Forms\StyleForm\FlatForm.cs">
+    <Compile Include="Controls\StyleForm\FlatForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\StyleForm\FlatForm.Designer.cs">
+    <Compile Include="Controls\StyleForm\FlatForm.Designer.cs">
       <DependentUpon>FlatForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Forms\StyleForm\NotifyForm.cs">
+    <Compile Include="Controls\StyleForm\NotifyForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\StyleForm\NotifyForm.Designer.cs">
+    <Compile Include="Controls\StyleForm\NotifyForm.Designer.cs">
       <DependentUpon>NotifyForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Forms\StyleForm\StanForm.cs">
+    <Compile Include="Controls\StyleForm\StanForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\WinForm\BaseForm.cs">
+    <Compile Include="Controls\BaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Controls\Forms\WinForm\BaseForm.Designer.cs">
+    <Compile Include="Controls\BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Methods\ImageProcessHelper.cs" />
-    <Compile Include="Controls\Methods\RenderHelper.cs" />
-    <Compile Include="Controls\WinAPI\Consts.cs" />
-    <Compile Include="Controls\WinAPI\KeyHook.cs" />
-    <Compile Include="Controls\WinAPI\NativeMethods.cs" />
-    <Compile Include="Controls\WinAPI\Structs.cs" />
-    <Compile Include="Controls\WinAPI\Win32.cs" />
-    <Compile Include="Controls\WinAPI\WindowsMessage.cs" />
+    <Compile Include="Methods\ImageProcessHelper.cs" />
+    <Compile Include="Methods\RenderHelper.cs" />
+    <Compile Include="WinAPI\Consts.cs" />
+    <Compile Include="WinAPI\KeyHook.cs" />
+    <Compile Include="WinAPI\NativeMethods.cs" />
+    <Compile Include="WinAPI\Structs.cs" />
+    <Compile Include="WinAPI\Win32.cs" />
+    <Compile Include="WinAPI\WindowsMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Controls\Forms\Metro\MetroForm.resx">
+    <EmbeddedResource Include="Controls\Metro\MetroForm.resx">
       <DependentUpon>MetroForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\Forms\StyleForm\FlatForm.resx">
+    <EmbeddedResource Include="Controls\StyleForm\FlatForm.resx">
       <DependentUpon>FlatForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\Forms\WinForm\BaseForm.resx">
+    <EmbeddedResource Include="Controls\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -147,6 +173,7 @@
       <Name>Windows.Resource</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
