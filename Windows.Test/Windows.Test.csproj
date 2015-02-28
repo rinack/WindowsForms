@@ -76,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DemoForm.resx">
+      <DependentUpon>DemoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +115,87 @@
       <Project>{9b4b6278-5d5a-4e6c-84ee-8918c6769e9d}</Project>
       <Name>Windows.Forms</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\360Safe.ico" />
+    <Content Include="Image\FormBackgroundImage\bkg_beautifulcity.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_beer.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_bluelight.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_blueteacup.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_camel.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_erath.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_europlace.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_flower.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_lightwood.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_love.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_nightcloud.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_nightight.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_owl.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_pinklight.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_poppy.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_prinkearth.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_snail.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_soilpicture.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_southtown.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_stars.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_titanic.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_tulip.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_wood.jpg" />
+    <Content Include="Image\FormBackgroundImage\bkg_yellowsand.jpg" />
+    <Content Include="Image\FormBackgroundImage\splitter.png" />
+    <Content Include="Image\ImageButton\btn_green_dowm.png" />
+    <Content Include="Image\ImageButton\btn_green_highlight.png" />
+    <Content Include="Image\ImageButton\btn_green_normal.png" />
+    <Content Include="Image\ImageButton\FixAllButton_down.png" />
+    <Content Include="Image\ImageButton\FixAllButton_highlight.png" />
+    <Content Include="Image\ImageButton\FixAllButton_normal.png" />
+    <Content Include="Image\ImageButton\listCtrlBtn_Hover.jpg" />
+    <Content Include="Image\ImageButton\listCtrlBtn_Normal.jpg" />
+    <Content Include="Image\ImageButton\listCtrlBtn_Pushed.jpg" />
+    <Content Include="Image\ImageButton\MVBotPlayNext_down.png" />
+    <Content Include="Image\ImageButton\MVBotPlayNext_hgihlgiht.png" />
+    <Content Include="Image\ImageButton\MVBotPlayNext_normal.png" />
+    <Content Include="Image\ImageButton\MVBotPlayPause_down.png" />
+    <Content Include="Image\ImageButton\MVBotPlayPause_highlight.png" />
+    <Content Include="Image\ImageButton\MVBotPlayPause_normal.png" />
+    <Content Include="Image\ImageButton\MVBotPlayPrev_down.png" />
+    <Content Include="Image\ImageButton\MVBotPlayPrev_highlight.png" />
+    <Content Include="Image\ImageButton\MVBotPlayPrev_normal.png" />
+    <Content Include="Image\ImageButton\MVBotPlayStop_down.png" />
+    <Content Include="Image\ImageButton\MVBotPlayStop_highlight.png" />
+    <Content Include="Image\ImageButton\MVBotPlayStop_normal.png" />
+    <Content Include="Image\ImageButton\MVBotPlay_Down.png" />
+    <Content Include="Image\ImageButton\MVBotPlay_highLight.png" />
+    <Content Include="Image\ImageButton\MVBotPlay_normal.png" />
+    <Content Include="Image\ImageButton\setup_down.png" />
+    <Content Include="Image\ImageButton\setup_highight.png" />
+    <Content Include="Image\ImageButton\setup_normal.png" />
+    <Content Include="Image\ImageButton\skin_down.png" />
+    <Content Include="Image\ImageButton\skin_highlight.png" />
+    <Content Include="Image\ImageButton\skin_normal.png" />
+    <Content Include="Image\ImageButton\UpBtn_hover.png" />
+    <Content Include="Image\ImageButton\UpBtn_normal.png" />
+    <Content Include="Image\ImageButton\UpBtn_pushed.png" />
+    <Content Include="Image\Others\groupboxbkgImg.png" />
+    <Content Include="Image\QQButton\Add.png" />
+    <Content Include="Image\QQButton\Add_24.png" />
+    <Content Include="Image\QQButton\Alter.png" />
+    <Content Include="Image\QQButton\Alter_24.png" />
+    <Content Include="Image\QQButton\Delete.png" />
+    <Content Include="Image\QQButton\Delete_2.png" />
+    <Content Include="Image\QQButton\Delete_24.png" />
+    <Content Include="Image\QQButton\Delete_2_24.png" />
+    <Content Include="Image\QQButton\Search.png" />
+    <Content Include="Image\QQButton\Update.png" />
+    <Content Include="Image\QQButton\Update_24.png" />
+    <Content Include="Image\QQGlassButton\AppBox_grid.png" />
+    <Content Include="Image\QQGlassButton\Color.png" />
+    <Content Include="Image\QQGlassButton\Mail.png" />
+    <Content Include="Image\QQGlassButton\Message.png" />
+    <Content Include="Image\QQGlassButton\MsgBox.png" />
+    <Content Include="Image\QQGlassButton\Qzone.png" />
+    <Content Include="Image\QQGlassButton\Search.png" />
+    <Content Include="Image\QQGlassButton\Tools.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

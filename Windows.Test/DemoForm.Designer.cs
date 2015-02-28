@@ -31,36 +31,36 @@ namespace Windows.Test
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DemoForm));
-            this.qqTextBox3 = new QQTextBox();
-            this.qqTextBox2 = new QQTextBox();
-            this.qqTextBox1 = new QQTextBox();
-            this.qqTextBox4 = new QQTextBox();
-            this.qqTextBox5 = new QQTextBox();
-            this.qqButton4 = new QQButton();
-            this.qqButton3 = new QQButton();
-            this.qqButton2 = new QQButton();
-            this.qqButton1 = new QQButton();
-            this.qqButton5 = new QQButton();
-            this.qqButton6 = new QQButton();
-            this.qqButton7 = new QQButton();
-            this.qqCheckBox3 = new QQCheckBox();
-            this.qqCheckBox2 = new QQCheckBox();
-            this.qqCheckBox1 = new QQCheckBox();
-            this.qqRadioButton3 = new QQRadioButton();
-            this.qqRadioButton2 = new QQRadioButton();
-            this.qqRadioButton1 = new QQRadioButton();
-            this.qqGlassButton4 = new QQGlassButton();
-            this.qqGlassButton3 = new QQGlassButton();
-            this.qqGlassButton2 = new QQGlassButton();
-            this.qqGlassButton1 = new QQGlassButton();
-            this.imageButtonNext = new ImageButton();
-            this.imageButtonplayAndPause = new ImageButton();
-            this.imageButtonPrev = new ImageButton();
-            this.imageButtonStop = new ImageButton();
-            this.imageButton4 = new ImageButton();
-            this.imageButton3 = new ImageButton();
-            this.imageButton2 = new ImageButton();
-            this.imageButton1 = new ImageButton();
+            this.qqTextBox3 = new Windows.Forms.Controls.QQControls.QQTextBox();
+            this.qqTextBox2 = new Windows.Forms.Controls.QQControls.QQTextBox();
+            this.qqTextBox1 = new Windows.Forms.Controls.QQControls.QQTextBox();
+            this.qqTextBox4 = new Windows.Forms.Controls.QQControls.QQTextBox();
+            this.qqTextBox5 = new Windows.Forms.Controls.QQControls.QQTextBox();
+            this.qqButton4 = new Windows.Forms.Controls.QQControls.QQButton();
+            this.qqButton3 = new Windows.Forms.Controls.QQControls.QQButton();
+            this.qqButton2 = new Windows.Forms.Controls.QQControls.QQButton();
+            this.qqButton1 = new Windows.Forms.Controls.QQControls.QQButton();
+            this.qqButton5 = new Windows.Forms.Controls.QQControls.QQButton();
+            this.qqButton6 = new Windows.Forms.Controls.QQControls.QQButton();
+            this.qqButton7 = new Windows.Forms.Controls.QQControls.QQButton();
+            this.qqCheckBox3 = new Windows.Forms.Controls.QQControls.QQCheckBox();
+            this.qqCheckBox2 = new Windows.Forms.Controls.QQControls.QQCheckBox();
+            this.qqCheckBox1 = new Windows.Forms.Controls.QQControls.QQCheckBox();
+            this.qqRadioButton3 = new Windows.Forms.Controls.QQControls.QQRadioButton();
+            this.qqRadioButton2 = new Windows.Forms.Controls.QQControls.QQRadioButton();
+            this.qqRadioButton1 = new Windows.Forms.Controls.QQControls.QQRadioButton();
+            this.qqGlassButton4 = new Windows.Forms.Controls.QQControls.QQGlassButton();
+            this.qqGlassButton3 = new Windows.Forms.Controls.QQControls.QQGlassButton();
+            this.qqGlassButton2 = new Windows.Forms.Controls.QQControls.QQGlassButton();
+            this.qqGlassButton1 = new Windows.Forms.Controls.QQControls.QQGlassButton();
+            this.imageButtonNext = new Windows.Forms.Controls.ImageButton.ImageButton();
+            this.imageButtonplayAndPause = new Windows.Forms.Controls.ImageButton.ImageButton();
+            this.imageButtonPrev = new Windows.Forms.Controls.ImageButton.ImageButton();
+            this.imageButtonStop = new Windows.Forms.Controls.ImageButton.ImageButton();
+            this.imageButton4 = new Windows.Forms.Controls.ImageButton.ImageButton();
+            this.imageButton3 = new Windows.Forms.Controls.ImageButton.ImageButton();
+            this.imageButton2 = new Windows.Forms.Controls.ImageButton.ImageButton();
+            this.imageButton1 = new Windows.Forms.Controls.ImageButton.ImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton2)).BeginInit();
@@ -137,7 +137,7 @@ namespace Windows.Test
             // qqButton4
             // 
             this.qqButton4.Font = new System.Drawing.Font("微软雅黑", 9F);
-           // this.qqButton4.Image = ((System.Drawing.Image)(resources.GetObject("qqButton4.Image")));
+            this.qqButton4.Image = ((System.Drawing.Image)(resources.GetObject("qqButton4.Image")));
             this.qqButton4.Location = new System.Drawing.Point(378, 145);
             this.qqButton4.Name = "qqButton4";
             this.qqButton4.Size = new System.Drawing.Size(68, 56);
@@ -149,7 +149,7 @@ namespace Windows.Test
             // qqButton3
             // 
             this.qqButton3.Font = new System.Drawing.Font("微软雅黑", 9F);
-            //this.qqButton3.Image = ((System.Drawing.Image)(resources.GetObject("qqButton3.Image")));
+            this.qqButton3.Image = ((System.Drawing.Image)(resources.GetObject("qqButton3.Image")));
             this.qqButton3.Location = new System.Drawing.Point(378, 103);
             this.qqButton3.Name = "qqButton3";
             this.qqButton3.Size = new System.Drawing.Size(68, 23);
@@ -162,7 +162,7 @@ namespace Windows.Test
             // qqButton2
             // 
             this.qqButton2.Font = new System.Drawing.Font("微软雅黑", 9F);
-            //this.qqButton2.Image = ((System.Drawing.Image)(resources.GetObject("qqButton2.Image")));
+            this.qqButton2.Image = ((System.Drawing.Image)(resources.GetObject("qqButton2.Image")));
             this.qqButton2.Location = new System.Drawing.Point(467, 103);
             this.qqButton2.Name = "qqButton2";
             this.qqButton2.Size = new System.Drawing.Size(68, 23);
@@ -174,7 +174,7 @@ namespace Windows.Test
             // qqButton1
             // 
             this.qqButton1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            //this.qqButton1.Image = ((System.Drawing.Image)(resources.GetObject("qqButton1.Image")));
+            this.qqButton1.Image = ((System.Drawing.Image)(resources.GetObject("qqButton1.Image")));
             this.qqButton1.Location = new System.Drawing.Point(467, 145);
             this.qqButton1.Name = "qqButton1";
             this.qqButton1.Size = new System.Drawing.Size(68, 56);
@@ -301,7 +301,7 @@ namespace Windows.Test
             this.qqGlassButton4.BackColor = System.Drawing.Color.Transparent;
             this.qqGlassButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.qqGlassButton4.Font = new System.Drawing.Font("微软雅黑", 9F);
-           // this.qqGlassButton4.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton4.Image")));
+            this.qqGlassButton4.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton4.Image")));
             this.qqGlassButton4.Location = new System.Drawing.Point(190, 326);
             this.qqGlassButton4.Name = "qqGlassButton4";
             this.qqGlassButton4.Size = new System.Drawing.Size(22, 23);
@@ -327,7 +327,7 @@ namespace Windows.Test
             this.qqGlassButton2.BackColor = System.Drawing.Color.Transparent;
             this.qqGlassButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.qqGlassButton2.Font = new System.Drawing.Font("微软雅黑", 9F);
-            //this.qqGlassButton2.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton2.Image")));
+            this.qqGlassButton2.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton2.Image")));
             this.qqGlassButton2.Location = new System.Drawing.Point(115, 325);
             this.qqGlassButton2.Name = "qqGlassButton2";
             this.qqGlassButton2.Size = new System.Drawing.Size(58, 23);
@@ -341,7 +341,7 @@ namespace Windows.Test
             this.qqGlassButton1.BackColor = System.Drawing.Color.Transparent;
             this.qqGlassButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.qqGlassButton1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            //this.qqGlassButton1.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton1.Image")));
+            this.qqGlassButton1.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton1.Image")));
             this.qqGlassButton1.Location = new System.Drawing.Point(51, 325);
             this.qqGlassButton1.Name = "qqGlassButton1";
             this.qqGlassButton1.Size = new System.Drawing.Size(58, 23);
@@ -354,11 +354,11 @@ namespace Windows.Test
             // 
             this.imageButtonNext.BackColor = System.Drawing.Color.Transparent;
             this.imageButtonNext.DialogResult = System.Windows.Forms.DialogResult.None;
-           // this.imageButtonNext.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonNext.DownImage")));
-           // this.imageButtonNext.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonNext.HoverImage")));
+            this.imageButtonNext.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonNext.DownImage")));
+            this.imageButtonNext.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonNext.HoverImage")));
             this.imageButtonNext.Location = new System.Drawing.Point(181, 172);
             this.imageButtonNext.Name = "imageButtonNext";
-           // this.imageButtonNext.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonNext.NormalImage")));
+            this.imageButtonNext.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonNext.NormalImage")));
             this.imageButtonNext.Size = new System.Drawing.Size(34, 30);
             this.imageButtonNext.TabIndex = 43;
             this.imageButtonNext.TabStop = false;
@@ -368,11 +368,11 @@ namespace Windows.Test
             // 
             this.imageButtonplayAndPause.BackColor = System.Drawing.Color.Transparent;
             this.imageButtonplayAndPause.DialogResult = System.Windows.Forms.DialogResult.None;
-            //this.imageButtonplayAndPause.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonplayAndPause.DownImage")));
-            //this.imageButtonplayAndPause.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonplayAndPause.HoverImage")));
+            this.imageButtonplayAndPause.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonplayAndPause.DownImage")));
+            this.imageButtonplayAndPause.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonplayAndPause.HoverImage")));
             this.imageButtonplayAndPause.Location = new System.Drawing.Point(224, 172);
             this.imageButtonplayAndPause.Name = "imageButtonplayAndPause";
-            //this.imageButtonplayAndPause.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonplayAndPause.NormalImage")));
+            this.imageButtonplayAndPause.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonplayAndPause.NormalImage")));
             this.imageButtonplayAndPause.Size = new System.Drawing.Size(46, 30);
             this.imageButtonplayAndPause.TabIndex = 42;
             this.imageButtonplayAndPause.TabStop = false;
@@ -382,11 +382,11 @@ namespace Windows.Test
             // 
             this.imageButtonPrev.BackColor = System.Drawing.Color.Transparent;
             this.imageButtonPrev.DialogResult = System.Windows.Forms.DialogResult.None;
-            //this.imageButtonPrev.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonPrev.DownImage")));
-            //this.imageButtonPrev.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonPrev.HoverImage")));
+            this.imageButtonPrev.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonPrev.DownImage")));
+            this.imageButtonPrev.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonPrev.HoverImage")));
             this.imageButtonPrev.Location = new System.Drawing.Point(138, 172);
             this.imageButtonPrev.Name = "imageButtonPrev";
-            //this.imageButtonPrev.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonPrev.NormalImage")));
+            this.imageButtonPrev.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonPrev.NormalImage")));
             this.imageButtonPrev.Size = new System.Drawing.Size(34, 30);
             this.imageButtonPrev.TabIndex = 41;
             this.imageButtonPrev.TabStop = false;
@@ -396,11 +396,11 @@ namespace Windows.Test
             // 
             this.imageButtonStop.BackColor = System.Drawing.Color.Transparent;
             this.imageButtonStop.DialogResult = System.Windows.Forms.DialogResult.None;
-            //this.imageButtonStop.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonStop.DownImage")));
-            //this.imageButtonStop.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonStop.HoverImage")));
+            this.imageButtonStop.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButtonStop.DownImage")));
+            this.imageButtonStop.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButtonStop.HoverImage")));
             this.imageButtonStop.Location = new System.Drawing.Point(95, 172);
             this.imageButtonStop.Name = "imageButtonStop";
-            //this.imageButtonStop.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonStop.NormalImage")));
+            this.imageButtonStop.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButtonStop.NormalImage")));
             this.imageButtonStop.Size = new System.Drawing.Size(34, 30);
             this.imageButtonStop.TabIndex = 40;
             this.imageButtonStop.TabStop = false;
@@ -410,12 +410,12 @@ namespace Windows.Test
             // 
             this.imageButton4.BackColor = System.Drawing.Color.Transparent;
             this.imageButton4.DialogResult = System.Windows.Forms.DialogResult.None;
-            //this.imageButton4.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton4.DownImage")));
+            this.imageButton4.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton4.DownImage")));
             this.imageButton4.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            //this.imageButton4.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton4.HoverImage")));
+            this.imageButton4.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton4.HoverImage")));
             this.imageButton4.Location = new System.Drawing.Point(248, 107);
             this.imageButton4.Name = "imageButton4";
-            //this.imageButton4.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton4.NormalImage")));
+            this.imageButton4.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton4.NormalImage")));
             this.imageButton4.Size = new System.Drawing.Size(99, 35);
             this.imageButton4.TabIndex = 39;
             this.imageButton4.TabStop = false;
@@ -426,11 +426,11 @@ namespace Windows.Test
             // 
             this.imageButton3.BackColor = System.Drawing.Color.Transparent;
             this.imageButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            //this.imageButton3.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton3.DownImage")));
-            //this.imageButton3.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton3.HoverImage")));
+            this.imageButton3.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton3.DownImage")));
+            this.imageButton3.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton3.HoverImage")));
             this.imageButton3.Location = new System.Drawing.Point(48, 175);
             this.imageButton3.Name = "imageButton3";
-            //this.imageButton3.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton3.NormalImage")));
+            this.imageButton3.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton3.NormalImage")));
             this.imageButton3.Size = new System.Drawing.Size(25, 22);
             this.imageButton3.TabIndex = 38;
             this.imageButton3.TabStop = false;
@@ -440,11 +440,11 @@ namespace Windows.Test
             // 
             this.imageButton2.BackColor = System.Drawing.Color.Transparent;
             this.imageButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            //this.imageButton2.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton2.DownImage")));
-            //this.imageButton2.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton2.HoverImage")));
+            this.imageButton2.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton2.DownImage")));
+            this.imageButton2.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton2.HoverImage")));
             this.imageButton2.Location = new System.Drawing.Point(140, 105);
             this.imageButton2.Name = "imageButton2";
-            //this.imageButton2.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton2.NormalImage")));
+            this.imageButton2.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton2.NormalImage")));
             this.imageButton2.Size = new System.Drawing.Size(98, 38);
             this.imageButton2.TabIndex = 37;
             this.imageButton2.TabStop = false;
@@ -454,23 +454,23 @@ namespace Windows.Test
             // 
             this.imageButton1.BackColor = System.Drawing.Color.Transparent;
             this.imageButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            //this.imageButton1.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton1.DownImage")));
+            this.imageButton1.DownImage = ((System.Drawing.Image)(resources.GetObject("imageButton1.DownImage")));
             this.imageButton1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            //this.imageButton1.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton1.HoverImage")));
+            this.imageButton1.HoverImage = ((System.Drawing.Image)(resources.GetObject("imageButton1.HoverImage")));
             this.imageButton1.Location = new System.Drawing.Point(48, 112);
             this.imageButton1.Name = "imageButton1";
-            //this.imageButton1.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton1.NormalImage")));
+            this.imageButton1.NormalImage = ((System.Drawing.Image)(resources.GetObject("imageButton1.NormalImage")));
             this.imageButton1.Size = new System.Drawing.Size(82, 24);
             this.imageButton1.TabIndex = 36;
             this.imageButton1.TabStop = false;
             this.imageButton1.Text = "禁止启动";
             this.imageButton1.ToolTipText = null;
             // 
-            // FormDemo
+            // DemoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            //this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(901, 487);
             this.Controls.Add(this.imageButtonNext);
@@ -503,9 +503,9 @@ namespace Windows.Test
             this.Controls.Add(this.qqTextBox3);
             this.Controls.Add(this.qqTextBox2);
             this.Controls.Add(this.qqTextBox1);
-            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(0, 0);
-            this.Name = "FormDemo";
+            this.Name = "DemoForm";
             this.Text = "自定义控件库演示Demo";
             this.Load += new System.EventHandler(this.FormDemo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton4)).EndInit();
