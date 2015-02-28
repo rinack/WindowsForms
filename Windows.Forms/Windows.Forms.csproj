@@ -74,6 +74,29 @@
     </Compile>
     <Compile Include="Controls\ControlsEx\ToolItem.cs" />
     <Compile Include="Controls\ControlsEx\ToolItemCollection.cs" />
+    <Compile Include="Controls\ImageButton\ImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\QQControls\QQButton\QQButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\QQControls\QQCheckBox\QQCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\QQControls\QQGlassButton\QQGlassButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\QQControls\QQMessageBox\QQMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\QQControls\QQMessageBox\QQMessageBoxButtons.cs" />
+    <Compile Include="Controls\QQControls\QQMessageBox\QQMessageBoxIcon.cs" />
+    <Compile Include="Controls\QQControls\QQRadioButton\QQRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\QQControls\QQTextBox\QQTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Enums\ClassStyle.cs" />
     <Compile Include="Enums\ControlState.cs" />
     <Compile Include="Enums\EDirection.cs" />
@@ -137,6 +160,9 @@
     <EmbeddedResource Include="Controls\Metro\MetroForm.resx">
       <DependentUpon>MetroForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\QQControls\QQMessageBox\QQMessageBox.resx">
+      <DependentUpon>QQMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\StyleForm\FlatForm.resx">
       <DependentUpon>FlatForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,7 +199,6 @@
       <Name>Windows.Resource</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
