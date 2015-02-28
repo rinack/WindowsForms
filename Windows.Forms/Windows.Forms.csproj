@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\ColorTable.cs" />
+    <Compile Include="Controls\ButtonEx\CustomButtonEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ButtonEx\KeyBoardButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\ControlsEx\QQButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -74,6 +80,12 @@
     </Compile>
     <Compile Include="Controls\ControlsEx\ToolItem.cs" />
     <Compile Include="Controls\ControlsEx\ToolItemCollection.cs" />
+    <Compile Include="Controls\CTabControl\CTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CUDataGridView\DataGridViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\ImageButton\ImageButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -95,6 +107,16 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\QQControls\QQTextBox\QQTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TextBoxEx\DrawHelper.cs" />
+    <Compile Include="Controls\TextBoxEx\QCDelayTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TextBoxEx\QCTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TextBoxEx\WMKTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Enums\ClassStyle.cs" />
