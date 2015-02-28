@@ -44,3 +44,4 @@ Temporary Items
 /Windows.Test/bin/Debug/*.config
 /Windows.Test/bin/Debug/*.manifest
 /Windows.Test/bin/Debug/*.exe
+/Windows.Forms/obj
