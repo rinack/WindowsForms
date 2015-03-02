@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Windows.Forms.Controls.Forms.StyleForm;
+using Windows.Forms.Controls.StyleForm;
 
 namespace Windows.Test
 {
-    public partial class Form4 : Form
+    public partial class Form4 : BurrsForm
     {
         public Form4()
         {
