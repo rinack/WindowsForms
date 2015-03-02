@@ -111,12 +111,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Windows.Forms\Windows.Forms.csproj">
-      <Project>{9b4b6278-5d5a-4e6c-84ee-8918c6769e9d}</Project>
-      <Name>Windows.Forms</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Image\360Safe.ico" />
     <Content Include="Image\FormBackgroundImage\bkg_beautifulcity.jpg" />
     <Content Include="Image\FormBackgroundImage\bkg_beer.jpg" />
@@ -196,6 +190,12 @@
     <Content Include="Image\QQGlassButton\Qzone.png" />
     <Content Include="Image\QQGlassButton\Search.png" />
     <Content Include="Image\QQGlassButton\Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Windows.Forms\Windows.Forms.csproj">
+      <Project>{9b4b6278-5d5a-4e6c-84ee-8918c6769e9d}</Project>
+      <Name>Windows.Forms</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
