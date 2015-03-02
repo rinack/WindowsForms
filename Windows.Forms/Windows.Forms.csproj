@@ -90,6 +90,12 @@
     <Compile Include="Controls\ImageButton\ImageButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\MyListBox\MyListBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -135,6 +141,12 @@
     </Compile>
     <Compile Include="Controls\QQControls\QQTextBox\QQTextBox.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\StyleForm\BurrsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\StyleForm\BurrsForm.Designer.cs">
+      <DependentUpon>BurrsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\TextBoxEx\DrawHelper.cs" />
     <Compile Include="Controls\TextBoxEx\QCDelayTextBox.cs">
@@ -194,15 +206,21 @@
     <Compile Include="Controls\BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Methods\GraphicsPathHelper.cs" />
+    <Compile Include="Methods\ImageDrawRect.cs" />
     <Compile Include="Methods\ImageProcessHelper.cs" />
     <Compile Include="Methods\RenderHelper.cs" />
     <Compile Include="WinAPI\Consts.cs" />
     <Compile Include="WinAPI\KeyHook.cs" />
     <Compile Include="WinAPI\NativeMethods.cs" />
+    <Compile Include="WinAPI\RoundStyle.cs" />
     <Compile Include="WinAPI\Structs.cs" />
     <Compile Include="WinAPI\Win32.cs" />
     <Compile Include="WinAPI\WindowsMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\Metro\MetroForm.resx">
       <DependentUpon>MetroForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -214,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\QQControls\QQMessageBox\QQMessageBox.resx">
       <DependentUpon>QQMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\StyleForm\BurrsForm.resx">
+      <DependentUpon>BurrsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\StyleForm\FlatForm.resx">
       <DependentUpon>FlatForm.cs</DependentUpon>
