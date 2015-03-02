@@ -50,3 +50,7 @@ Temporary Items
 /Windows.Test/obj/Debug/Windows.Test.Form4.resources
 /Windows.Test/obj/Debug/Windows.Test.Form4.resources
 /Windows.Forms/bin
+/Windows.Helper/obj/Debug
+/Windows.Helper/bin
+/Windows.Resource/bin
+/Windows.Resource/obj
