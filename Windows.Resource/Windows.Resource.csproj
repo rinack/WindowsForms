@@ -71,6 +71,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="StanForm\ScrollBar\downarrow.png" />
+    <EmbeddedResource Include="StanForm\ScrollBar\ThumbBottom.png" />
+    <EmbeddedResource Include="StanForm\ScrollBar\ThumbMiddle.png" />
+    <EmbeddedResource Include="StanForm\ScrollBar\ThumbSpanBottom.png" />
+    <EmbeddedResource Include="StanForm\ScrollBar\ThumbSpanTop.png" />
+    <EmbeddedResource Include="StanForm\ScrollBar\ThumbTop.png" />
+    <EmbeddedResource Include="StanForm\ScrollBar\uparrow.png" />
     <EmbeddedResource Include="FlatForm\Form\framemod.png" />
     <EmbeddedResource Include="FlatForm\Form\title_bar_menu.png" />
     <EmbeddedResource Include="FlatForm\SysButton\sys_button_close.png" />
