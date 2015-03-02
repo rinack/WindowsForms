@@ -90,6 +90,32 @@
     <Compile Include="Controls\ImageButton\ImageButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\MyListBox\MyListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyListBox\MyListBox.designer.cs">
+      <DependentUpon>MyListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MyListBox\MyListBoxItem.cs" />
+    <Compile Include="Controls\MyListBox\MyListBoxItemConverter.cs" />
+    <Compile Include="Controls\MyListBox\MyListBoxItemIcon.cs" />
+    <Compile Include="Controls\MyListBox\MyListBoxSubItem.cs" />
+    <Compile Include="Controls\MyListBox\MyListBoxSubItemConverter.cs" />
+    <Compile Include="Controls\MyListBox\MyListBoxtEventArgs.cs" />
+    <Compile Include="Controls\MyListBox\MyListBoxVScroll.cs" />
+    <Compile Include="Controls\MyList\MyList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyList\MyList.designer.cs">
+      <DependentUpon>MyList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MyList\MyListEventArgs.cs" />
+    <Compile Include="Controls\MyList\MyListItem.cs" />
+    <Compile Include="Controls\MyList\MyListItemConverter.cs" />
+    <Compile Include="Controls\MyList\MyListItemIcon.cs" />
+    <Compile Include="Controls\MyList\MyListSubItem.cs" />
+    <Compile Include="Controls\MyList\MyListSubItemConverter.cs" />
+    <Compile Include="Controls\MyList\MyListVScroll.cs" />
     <Compile Include="Controls\QQControls\QQButton\QQButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -179,6 +205,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\Metro\MetroForm.resx">
       <DependentUpon>MetroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MyListBox\MyListBox.resx">
+      <DependentUpon>MyListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MyList\MyList.resx">
+      <DependentUpon>MyList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\QQControls\QQMessageBox\QQMessageBox.resx">
       <DependentUpon>QQMessageBox.cs</DependentUpon>
