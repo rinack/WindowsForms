@@ -6,18 +6,20 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.Windows.Forms.Design;
 
 namespace Windows.Forms.Controls.Forms.ScrollbarEx
 {
-    //[Designer(typeof(ScrollbarControlDesigner))]
-    public partial class CustomScrollbar : UserControl
+    [Designer(typeof(ScrollbarControlDesigner))]
+    public class CustomScrollbar : UserControl
     {
 
         protected Color moChannelColor = Color.Empty;
-        protected Image moUpArrowImage = null;//上箭头
+        protected Image moUpArrowImage = null;
         //protected Image moUpArrowImage_Over = null;
         //protected Image moUpArrowImage_Down = null;
-        protected Image moDownArrowImage = null;//下箭头
+        protected Image moDownArrowImage = null;
         //protected Image moDownArrowImage_Over = null;
         //protected Image moDownArrowImage_Down = null;
         protected Image moThumbArrowImage = null;
@@ -74,13 +76,17 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
             SetStyle(ControlStyles.DoubleBuffer, true);
 
             moChannelColor = Color.FromArgb(51, 166, 3);
+            UpArrowImage = AssemblyHelper.GetImage("StanForm.ScrollBar.uparrow.png");
+            DownArrowImage = AssemblyHelper.GetImage("StanForm.ScrollBar.downarrow.png");
 
-            //UpArrowImage = Bitmap.FromStream(Shared.AssemblyWinUI.GetManifestResourceStream("CRD.WinUI.Resources.Common.scroll.uparrow.png"), true, false);// BASSSkin.uparrow;//上箭头
-            //DownArrowImage = Bitmap.FromStream(Shared.AssemblyWinUI.GetManifestResourceStream("CRD.WinUI.Resources.Common.scroll.downarrow.png"), true, false);// BASSSkin.downarrow;//下箭头
-            //ThumbBottomImage = Bitmap.FromStream(Shared.AssemblyWinUI.GetManifestResourceStream("CRD.WinUI.Resources.Common.scroll.ThumbBottom.png"), true, false);//  BASSSkin.ThumbBottom;
-            //ThumbMiddleImage = Bitmap.FromStream(Shared.AssemblyWinUI.GetManifestResourceStream("CRD.WinUI.Resources.Common.scroll.ThumbMiddle.png"), true, false);//  BASSSkin.ThumbMiddle;
 
-            this.Width = UpArrowImage.Width;//18px
+            ThumbBottomImage = AssemblyHelper.GetImage("StanForm.ScrollBar.ThumbBottom.png");
+            ThumbBottomSpanImage = AssemblyHelper.GetImage("StanForm.ScrollBar.ThumbSpanBottom.png");
+            ThumbTopImage = AssemblyHelper.GetImage("StanForm.ScrollBar.ThumbTop.png");
+            ThumbTopSpanImage = AssemblyHelper.GetImage("StanForm.ScrollBar.ThumbSpanTop.png");
+            ThumbMiddleImage = AssemblyHelper.GetImage("StanForm.ScrollBar.ThumbMiddle.png");
+
+            this.Width = UpArrowImage.Width;
             base.MinimumSize = new Size(UpArrowImage.Width, UpArrowImage.Height + DownArrowImage.Height + GetThumbHeight());
         }
 
@@ -164,7 +170,6 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
                 float fTop = fPerc * nPixelRange;
                 moThumbTop = (int)fTop;
 
-
                 Invalidate();
             }
         }
@@ -191,10 +196,31 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
         }
 
         [EditorBrowsable(EditorBrowsableState.Always), Browsable(true), DefaultValue(false), Category("Skin"), Description("Up Arrow Graphic")]
+        public Image ThumbTopImage
+        {
+            get { return moThumbTopImage; }
+            set { moThumbTopImage = value; }
+        }
+
+        [EditorBrowsable(EditorBrowsableState.Always), Browsable(true), DefaultValue(false), Category("Skin"), Description("Up Arrow Graphic")]
+        public Image ThumbTopSpanImage
+        {
+            get { return moThumbTopSpanImage; }
+            set { moThumbTopSpanImage = value; }
+        }
+
+        [EditorBrowsable(EditorBrowsableState.Always), Browsable(true), DefaultValue(false), Category("Skin"), Description("Up Arrow Graphic")]
         public Image ThumbBottomImage
         {
             get { return moThumbBottomImage; }
             set { moThumbBottomImage = value; }
+        }
+
+        [EditorBrowsable(EditorBrowsableState.Always), Browsable(true), DefaultValue(false), Category("Skin"), Description("Up Arrow Graphic")]
+        public Image ThumbBottomSpanImage
+        {
+            get { return moThumbBottomSpanImage; }
+            set { moThumbBottomSpanImage = value; }
         }
 
         [EditorBrowsable(EditorBrowsableState.Always), Browsable(true), DefaultValue(false), Category("Skin"), Description("Up Arrow Graphic")]
@@ -216,17 +242,14 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
 
             Brush oBrush = new SolidBrush(moChannelColor);
             Brush oWhiteBrush = new SolidBrush(Color.FromArgb(255, 255, 255));
-            //          函数名: rectangle 
-            //功 能: 画一个矩形 
-            //用 法: void far rectangle(int left, int top, int right, int bottom); 
 
             //draw channel left and right border colors
             e.Graphics.FillRectangle(oWhiteBrush, new Rectangle(0, UpArrowImage.Height, 1, (this.Height - DownArrowImage.Height)));
             e.Graphics.FillRectangle(oWhiteBrush, new Rectangle(this.Width - 1, UpArrowImage.Height, 1, (this.Height - DownArrowImage.Height)));
 
             //draw channel
-            //e.Graphics.FillRectangle(oBrush, new Rectangle(1, UpArrowImage.Height, this.Width-2, (this.Height-DownArrowImage.Height)));
-            e.Graphics.DrawImage(ThumbBottomImage, new Rectangle(0, UpArrowImage.Height, this.Width, (this.Height - DownArrowImage.Height)));
+            e.Graphics.FillRectangle(oBrush, new Rectangle(1, UpArrowImage.Height, this.Width - 2, (this.Height - DownArrowImage.Height)));
+
             //draw thumb
             int nTrackHeight = (this.Height - (UpArrowImage.Height + DownArrowImage.Height));
             float fThumbHeight = ((float)LargeChange / (float)Maximum) * nTrackHeight;
@@ -237,7 +260,6 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
                 nThumbHeight = nTrackHeight;
                 fThumbHeight = nTrackHeight;
             }
-            //MessageBox.Show(nThumbHeight.ToString());
             if (nThumbHeight < 56)
             {
                 nThumbHeight = 56;
@@ -246,35 +268,35 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
 
             //Debug.WriteLine(nThumbHeight.ToString());
 
-            //float fSpanHeight = (fThumbHeight - (ThumbMiddleImage.Height + ThumbTopImage.Height + ThumbBottomImage.Height)) / 2.0f;
-            //int nSpanHeight = (int)fSpanHeight;
+            float fSpanHeight = (fThumbHeight - (ThumbMiddleImage.Height + ThumbTopImage.Height + ThumbBottomImage.Height)) / 2.0f;
+            int nSpanHeight = (int)fSpanHeight;
 
-            int nTop = moThumbTop;//0
-            nTop += UpArrowImage.Height;//9px
+            int nTop = moThumbTop;
+            nTop += UpArrowImage.Height;
 
-            //draw top画上面的按钮
-            //e.Graphics.DrawImage(ThumbTopImage, new Rectangle(0, nTop, this.Width, ThumbTopImage.Height));
+            //draw top
+            e.Graphics.DrawImage(ThumbTopImage, new Rectangle(1, nTop, this.Width - 2, ThumbTopImage.Height));
 
-            //nTop += ThumbTopImage.Height;//10px
+            nTop += ThumbTopImage.Height;
             //draw top span
-            //Rectangle rect = new Rectangle(1, nTop, this.Width - 2, nSpanHeight);
+            Rectangle rect = new Rectangle(1, nTop, this.Width - 2, nSpanHeight);
 
 
-            //e.Graphics.DrawImage(ThumbTopSpanImage, 1.0f,(float)nTop, (float)this.Width-2.0f, (float) fSpanHeight*2);
+            e.Graphics.DrawImage(ThumbTopSpanImage, 1.0f, (float)nTop, (float)this.Width - 2.0f, (float)fSpanHeight * 2);
 
-            // nTop += nSpanHeight;//11px
+            nTop += nSpanHeight;
             //draw middle
-            e.Graphics.DrawImage(ThumbMiddleImage, new Rectangle(0, nTop, this.Width, ThumbMiddleImage.Height));
+            e.Graphics.DrawImage(ThumbMiddleImage, new Rectangle(1, nTop, this.Width - 2, ThumbMiddleImage.Height));
 
 
-            //nTop += ThumbMiddleImage.Height;
+            nTop += ThumbMiddleImage.Height;
             //draw top span
-            //rect = new Rectangle(1, nTop, this.Width - 2, nSpanHeight*2);
-            //e.Graphics.DrawImage(ThumbBottomSpanImage, rect);
+            rect = new Rectangle(1, nTop, this.Width - 2, nSpanHeight * 2);
+            e.Graphics.DrawImage(ThumbBottomSpanImage, rect);
 
-            //nTop += nSpanHeight;
+            nTop += nSpanHeight;
             //draw bottom
-            //e.Graphics.DrawImage(ThumbBottomImage, new Rectangle(1, nTop, this.Width - 2, nSpanHeight));
+            e.Graphics.DrawImage(ThumbBottomImage, new Rectangle(1, nTop, this.Width - 2, nSpanHeight));
 
             if (DownArrowImage != null)
             {
@@ -313,7 +335,6 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
 
         }
 
-        //鼠标按下
         private void CustomScrollbar_MouseDown(object sender, MouseEventArgs e)
         {
             Point ptPoint = this.PointToClient(Cursor.Position);
@@ -366,7 +387,7 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
                         float fValue = fPerc * (Maximum - LargeChange);
 
                         moValue = (int)fValue;
-                        
+                        Debug.WriteLine(moValue.ToString());
 
                         if (ValueChanged != null)
                             ValueChanged(this, new EventArgs());
@@ -398,7 +419,7 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
                         float fValue = fPerc * (Maximum - LargeChange);
 
                         moValue = (int)fValue;
-                       
+                        Debug.WriteLine(moValue.ToString());
 
                         if (ValueChanged != null)
                             ValueChanged(this, new EventArgs());
@@ -412,13 +433,11 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
             }
         }
 
-        //鼠标松开
         private void CustomScrollbar_MouseUp(object sender, MouseEventArgs e)
         {
             this.moThumbDown = false;
             this.moThumbDragging = false;
         }
-
 
         private void MoveThumb(int y)
         {
@@ -464,7 +483,7 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
                     float fPerc = (float)moThumbTop / (float)nPixelRange;
                     float fValue = fPerc * (Maximum - LargeChange);
                     moValue = (int)fValue;
-                    
+                    Debug.WriteLine(moValue.ToString());
 
                     Application.DoEvents();
 
@@ -473,7 +492,6 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
             }
         }
 
-        //鼠标经过
         private void CustomScrollbar_MouseMove(object sender, MouseEventArgs e)
         {
             if (moThumbDown == true)
@@ -493,31 +511,30 @@ namespace Windows.Forms.Controls.Forms.ScrollbarEx
             if (Scroll != null)
                 Scroll(this, new EventArgs());
         }
-
     }
 
-    //internal class ScrollbarControlDesigner : System.Windows.Forms.Design.ControlDesigner
-    //{
-    //    public override SelectionRules SelectionRules
-    //    {
-    //        get
-    //        {
-    //            SelectionRules selectionRules = base.SelectionRules;
-    //            PropertyDescriptor propDescriptor = TypeDescriptor.GetProperties(this.Component)["AutoSize"];
-    //            if (propDescriptor != null)
-    //            {
-    //                bool autoSize = (bool)propDescriptor.GetValue(this.Component);
-    //                if (autoSize)
-    //                {
-    //                    selectionRules = SelectionRules.Visible | SelectionRules.Moveable | SelectionRules.BottomSizeable | SelectionRules.TopSizeable;
-    //                }
-    //                else
-    //                {
-    //                    selectionRules = SelectionRules.Visible | SelectionRules.AllSizeable | SelectionRules.Moveable;
-    //                }
-    //            }
-    //            return selectionRules;
-    //        }
-    //    }
-    //}
+    internal class ScrollbarControlDesigner : System.Windows.Forms.Design.ControlDesigner
+    {
+        public override SelectionRules SelectionRules
+        {
+            get
+            {
+                SelectionRules selectionRules = base.SelectionRules;
+                PropertyDescriptor propDescriptor = TypeDescriptor.GetProperties(this.Component)["AutoSize"];
+                if (propDescriptor != null)
+                {
+                    bool autoSize = (bool)propDescriptor.GetValue(this.Component);
+                    if (autoSize)
+                    {
+                        selectionRules = SelectionRules.Visible | SelectionRules.Moveable | SelectionRules.BottomSizeable | SelectionRules.TopSizeable;
+                    }
+                    else
+                    {
+                        selectionRules = SelectionRules.Visible | SelectionRules.AllSizeable | SelectionRules.Moveable;
+                    }
+                }
+                return selectionRules;
+            }
+        }
+    }
 }
