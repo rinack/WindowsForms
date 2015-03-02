@@ -8,45 +8,6 @@ namespace Windows.Forms.Controls.WinAPI
 {
     public class Win32
     {
-        [StructLayout(LayoutKind.Sequential)]
-        public struct Size
-        {
-            public Int32 cx;
-            public Int32 cy;
-
-            public Size(Int32 x, Int32 y)
-            {
-                cx = x;
-                cy = y;
-            }
-        }
-
-        [StructLayout(LayoutKind.Sequential, Pack = 1)]
-        public struct BLENDFUNCTION
-        {
-            public byte BlendOp;
-            public byte BlendFlags;
-            public byte SourceConstantAlpha;
-            public byte AlphaFormat;
-        }
-
-        [StructLayout(LayoutKind.Sequential)]
-        public struct Point
-        {
-            public Int32 x;
-            public Int32 y;
-
-            public Point(Int32 x, Int32 y)
-            {
-                this.x = x;
-                this.y = y;
-            }
-        }
-
-        public const byte AC_SRC_OVER = 0;
-        public const Int32 ULW_ALPHA = 2;
-        public const byte AC_SRC_ALPHA = 1;
-
         #region Window Const
 
         public const int WM_KEYDOWN = 0x0100;
@@ -85,9 +46,15 @@ namespace Windows.Forms.Controls.WinAPI
         public const int WM_FALSE = 0;
         public const int WM_TRUE = 1;
 
+        #endregion
+
         public const int GWL_EXSTYLE = -20;
         public const int WS_EX_TRANSPARENT = 0x00000020;
         public const int WS_EX_LAYERED = 0x00080000;
+
+        public const byte AC_SRC_OVER = 0;
+        public const Int32 ULW_ALPHA = 2;
+        public const byte AC_SRC_ALPHA = 1;
 
         /// <summary>
         /// 从左到右显示
@@ -126,6 +93,45 @@ namespace Windows.Forms.Controls.WinAPI
         /// </summary>
         public const Int32 AW_BLEND = 0x00080000;
 
+        #region
+        [StructLayout(LayoutKind.Sequential)]
+        public struct Size
+        {
+            public Int32 cx;
+            public Int32 cy;
+
+            public Size(Int32 x, Int32 y)
+            {
+                cx = x;
+                cy = y;
+            }
+        }
+
+        [StructLayout(LayoutKind.Sequential, Pack = 1)]
+        public struct BLENDFUNCTION
+        {
+            public byte BlendOp;
+            public byte BlendFlags;
+            public byte SourceConstantAlpha;
+            public byte AlphaFormat;
+        }
+
+        [StructLayout(LayoutKind.Sequential)]
+        public struct Point
+        {
+            public Int32 x;
+            public Int32 y;
+
+            public Point(Int32 x, Int32 y)
+            {
+                this.x = x;
+                this.y = y;
+            }
+        }
+        #endregion
+
+        #region Public extern methods
+
         /// <summary>
         /// 执行动画
         /// </summary>
@@ -136,9 +142,20 @@ namespace Windows.Forms.Controls.WinAPI
         [DllImport("user32")]
         public static extern bool AnimateWindow(IntPtr whnd, int dwtime, int dwflag);
 
-        #endregion
+        [DllImport("gdi32.dll")]
+        public static extern int CreateRoundRectRgn(int x1, int y1, int x2, int y2, int x3, int y3);
 
-        #region Public extern methods
+        [DllImport("user32.dll")]
+        public static extern int SetWindowRgn(IntPtr hwnd, int hRgn, Boolean bRedraw);
+
+        [DllImport("gdi32.dll", EntryPoint = "DeleteObject", CharSet = CharSet.Ansi)]
+        public static extern int DeleteObject(int hObject);
+
+        [DllImport("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
 
         [DllImport("gdi32.dll", ExactSpelling = true, SetLastError = true)]
         public static extern IntPtr CreateCompatibleDC(IntPtr hDC);
@@ -169,21 +186,6 @@ namespace Windows.Forms.Controls.WinAPI
 
         [DllImport("user32.dll")]
         public static extern int SetWindowLong(IntPtr hwnd, int nIndex, int dwNewLong);
-
-        [DllImport("gdi32.dll")]
-        public static extern int CreateRoundRectRgn(int x1, int y1, int x2, int y2, int x3, int y3);
-
-        [DllImport("user32.dll")]
-        public static extern int SetWindowRgn(IntPtr hwnd, int hRgn, Boolean bRedraw);
-
-        [DllImport("gdi32.dll", EntryPoint = "DeleteObject", CharSet = CharSet.Ansi)]
-        public static extern int DeleteObject(int hObject);
-
-        [DllImport("user32.dll")]
-        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
-
-        [DllImport("user32.dll")]
-        public static extern bool ReleaseCapture();
 
         #endregion
     }
