@@ -201,6 +201,10 @@
     <Compile Include="Controls\MyList\MyListSubItem.cs" />
     <Compile Include="Controls\MyList\MyListSubItemConverter.cs" />
     <Compile Include="Controls\MyList\MyListVScroll.cs" />
+    <Compile Include="Controls\ProgressBar\ProgressBarDesigner.cs" />
+    <Compile Include="Controls\ProgressBar\ProgressBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\QQControls\QQButton\QQButton.cs">
       <SubType>Component</SubType>
     </Compile>
