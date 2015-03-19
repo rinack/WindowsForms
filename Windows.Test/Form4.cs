@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Windows.Forms.Controls.StyleForm;
-using Windows.Forms.Controls.StyleForm;
 
 namespace Windows.Test
 {
