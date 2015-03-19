@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Windows.Forms.Controls.Forms.Metro;
+using Windows.Forms.Controls.MetroForm;
 
 namespace Windows.Test
 {
