@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using Windows.Forms.Controls.Methods;
 
-namespace ControlsEx.Controls.ButtonEx
+namespace Windows.Forms.Controls.ButtonEx
 {
     public class CustomButtonEx : Button
     {

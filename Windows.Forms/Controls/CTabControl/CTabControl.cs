@@ -6,7 +6,7 @@ using System;
 using System.Drawing.Text;
 using System.ComponentModel;
 
-namespace ControlsEx.Controls.CTabControl
+namespace Windows.Forms.Controls.CTabControl
 {
     public class CTabControl : TabControl
     {

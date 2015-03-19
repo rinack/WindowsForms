@@ -6,7 +6,7 @@ using System.Data;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ControlsEx.Controls.TextBoxEx
+namespace Windows.Forms.Controls.TextBoxEx
 {
     public partial class MyTextBox : TextBox
     {

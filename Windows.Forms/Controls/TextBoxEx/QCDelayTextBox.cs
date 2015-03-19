@@ -11,7 +11,7 @@ using Windows.Forms.Controls.WinAPI;
 using Windows.Forms.Controls.Common;
 using Windows.Forms.Controls.Methods;
 
-namespace ControlsEx.Controls.TextBoxEx
+namespace Windows.Forms.Controls.TextBoxEx
 {
     public class QCDelayTextBox : TextBox
     {

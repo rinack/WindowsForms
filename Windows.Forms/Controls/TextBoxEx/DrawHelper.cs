@@ -7,7 +7,7 @@ using System.Drawing.Drawing2D;
 using System.IO;
 using System.Reflection;
 
-namespace ControlsEx.Controls.TextBoxEx
+namespace Windows.Forms.Controls.TextBoxEx
 {
     internal class DrawHelper
     {

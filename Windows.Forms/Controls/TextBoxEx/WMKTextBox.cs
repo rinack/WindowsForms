@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
 
-namespace ControlsEx.Controls.TextBoxEx
+namespace Windows.Forms.Controls.TextBoxEx
 {
     public class WMKTextBox : Control
     {

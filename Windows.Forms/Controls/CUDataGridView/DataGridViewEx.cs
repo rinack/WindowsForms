@@ -8,7 +8,7 @@ using System.Drawing;
 using System.Runtime.CompilerServices;
 using System.Drawing.Drawing2D;
 
-namespace ControlsEx.Controls.CUDataGridView
+namespace Windows.Forms.Controls.CUDataGridView
 {
     /// <summary>
     /// 扩展DataGrid控件

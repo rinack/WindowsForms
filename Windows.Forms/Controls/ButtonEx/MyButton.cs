@@ -10,7 +10,7 @@ using Windows.Forms.Controls.Enums;
 using Windows.Forms.Properties;
 using Windows.Helper;
 
-namespace ControlsEx.Controls.ButtonEx
+namespace Windows.Forms.Controls.ButtonEx
 {
     /// <summary>
     /// Button

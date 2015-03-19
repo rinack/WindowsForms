@@ -1,4 +1,4 @@
-﻿using ControlsEx.Controls.TextBoxEx;
+﻿using Windows.Forms.Controls.TextBoxEx;
 namespace Windows.Forms.Controls.Metros
 {
     partial class MetroTextBox

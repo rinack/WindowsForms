@@ -1,4 +1,4 @@
-﻿namespace ControlsEx.Controls.TextBoxEx
+﻿namespace Windows.Forms.Controls.TextBoxEx
 {
     partial class MyTextBox
     {
