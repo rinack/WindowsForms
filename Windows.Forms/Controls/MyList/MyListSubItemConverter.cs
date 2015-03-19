@@ -4,7 +4,7 @@ using System.Text;
 
 using System.ComponentModel;
 
-namespace Windows.Forms.Controls.Forms.MyList
+namespace Windows.Forms.Controls.MyList
 {
 
     public class MyListSubItemConverter : ExpandableObjectConverter

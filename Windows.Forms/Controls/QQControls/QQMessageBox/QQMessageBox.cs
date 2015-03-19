@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using Windows.Forms.Controls.Forms.StyleForm;
+using Windows.Forms.Controls.StyleForm;
 using Windows.Forms.Controls.Methods;
 
 namespace Windows.Forms.Controls.QQControls

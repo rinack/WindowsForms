@@ -1,4 +1,4 @@
-﻿namespace Windows.Forms.Controls.Forms.StyleForm
+﻿namespace Windows.Forms.Controls.StyleForm
 {
     partial class FlatForm
     {

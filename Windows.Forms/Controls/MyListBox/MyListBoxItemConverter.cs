@@ -9,7 +9,7 @@ using System.Reflection;
 
 using System.Windows.Forms;
 
-namespace Windows.Forms.Controls.Forms.MyListBox
+namespace Windows.Forms.Controls.MyListBox
 {
 
     internal class MyListBoxItemConverter : ExpandableObjectConverter

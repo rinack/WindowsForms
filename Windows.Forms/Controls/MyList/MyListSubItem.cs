@@ -7,7 +7,7 @@ using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Drawing.Imaging;
 
-namespace Windows.Forms.Controls.Forms.MyList
+namespace Windows.Forms.Controls.MyList
 {
 
     //有待解决

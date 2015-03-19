@@ -1,4 +1,4 @@
-﻿namespace Windows.Forms.Controls.Forms.MyList
+﻿namespace Windows.Forms.Controls.MyList
 {
     partial class MyList
     {

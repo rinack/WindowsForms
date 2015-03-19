@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Windows.Forms.Controls.Forms.MyList
+namespace Windows.Forms.Controls.MyList
 {
 
     //自定 义事件参数类

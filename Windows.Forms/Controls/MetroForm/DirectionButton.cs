@@ -30,7 +30,7 @@ namespace Windows.Forms.Controls.MetroForm
         #region 构造函数
 
         /// <summary>
-        /// 用默认设置初始化 Windows.Forms.Controls.Forms.DirectionButton 类的新实例。
+        /// 用默认设置初始化 Windows.Forms.Controls.DirectionButton 类的新实例。
         /// </summary>
         public DirectionButton()
         {

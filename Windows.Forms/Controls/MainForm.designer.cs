@@ -1,4 +1,4 @@
-﻿namespace Windows.Forms.Controls.Forms.WinForm
+﻿namespace Windows.Forms.Controls.WinForm
 {
     partial class MainForm
     {

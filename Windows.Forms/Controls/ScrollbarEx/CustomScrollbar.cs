@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.Windows.Forms.Design;
 
-namespace Windows.Forms.Controls.Forms.ScrollbarEx
+namespace Windows.Forms.Controls.ScrollbarEx
 {
     [Designer(typeof(ScrollbarControlDesigner))]
     public class CustomScrollbar : UserControl

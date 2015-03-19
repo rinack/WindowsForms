@@ -31,26 +31,26 @@ namespace Windows.Test
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DemoForm));
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem myListBoxItem17 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem65 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem66 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem67 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem68 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem myListBoxItem18 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem69 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem70 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem71 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem72 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem myListBoxItem19 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem73 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem74 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem75 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem76 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem myListBoxItem20 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem77 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem78 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem79 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem myListBoxSubItem80 = new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem17 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem65 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem66 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem67 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem68 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem18 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem69 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem70 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem71 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem72 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem19 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem73 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem74 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem75 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem76 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem20 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem77 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem78 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem79 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem80 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
             this.qqTextBox3 = new Windows.Forms.Controls.QQControls.QQTextBox();
             this.qqTextBox2 = new Windows.Forms.Controls.QQControls.QQTextBox();
             this.qqTextBox1 = new Windows.Forms.Controls.QQControls.QQTextBox();
@@ -81,7 +81,7 @@ namespace Windows.Test
             this.imageButton3 = new Windows.Forms.Controls.ImageButton.ImageButton();
             this.imageButton2 = new Windows.Forms.Controls.ImageButton.ImageButton();
             this.imageButton1 = new Windows.Forms.Controls.ImageButton.ImageButton();
-            this.myListBox1 = new Windows.Forms.Controls.Forms.MyListBox.MyListBox();
+            this.myListBox1 = new Windows.Forms.Controls.MyListBox.MyListBox();
             this.metroTextBox1 = new Windows.Forms.Controls.Metros.MetroTextBox();
             this.metroTextBoxSearch1 = new Windows.Forms.Controls.Metros.MetroTextBoxSearch();
             this.metroButtonSearch1 = new Windows.Forms.Controls.Metros.MetroButtonSearch();
@@ -507,7 +507,7 @@ namespace Windows.Test
             myListBoxSubItem65.IsTwinkle = false;
             myListBoxSubItem65.NicName = "昵称";
             myListBoxSubItem65.PersonalMsg = "心情&消息";
-            myListBoxSubItem65.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem65.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem66.DisplayName = "名称";
             myListBoxSubItem66.HeadImage = null;
             myListBoxSubItem66.ID = 0;
@@ -515,7 +515,7 @@ namespace Windows.Test
             myListBoxSubItem66.IsTwinkle = false;
             myListBoxSubItem66.NicName = "昵称";
             myListBoxSubItem66.PersonalMsg = "心情&消息";
-            myListBoxSubItem66.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem66.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem67.DisplayName = "名称";
             myListBoxSubItem67.HeadImage = null;
             myListBoxSubItem67.ID = 0;
@@ -523,7 +523,7 @@ namespace Windows.Test
             myListBoxSubItem67.IsTwinkle = false;
             myListBoxSubItem67.NicName = "昵称";
             myListBoxSubItem67.PersonalMsg = "心情&消息";
-            myListBoxSubItem67.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem67.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem68.DisplayName = "名称";
             myListBoxSubItem68.HeadImage = null;
             myListBoxSubItem68.ID = 0;
@@ -531,8 +531,8 @@ namespace Windows.Test
             myListBoxSubItem68.IsTwinkle = false;
             myListBoxSubItem68.NicName = "昵称";
             myListBoxSubItem68.PersonalMsg = "心情&消息";
-            myListBoxSubItem68.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem17.SubItems.AddRange(new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem68.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem17.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
             myListBoxSubItem65,
             myListBoxSubItem66,
             myListBoxSubItem67,
@@ -545,7 +545,7 @@ namespace Windows.Test
             myListBoxSubItem69.IsTwinkle = false;
             myListBoxSubItem69.NicName = "昵称";
             myListBoxSubItem69.PersonalMsg = "心情&消息";
-            myListBoxSubItem69.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem69.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem70.DisplayName = "名称";
             myListBoxSubItem70.HeadImage = null;
             myListBoxSubItem70.ID = 0;
@@ -553,7 +553,7 @@ namespace Windows.Test
             myListBoxSubItem70.IsTwinkle = false;
             myListBoxSubItem70.NicName = "昵称";
             myListBoxSubItem70.PersonalMsg = "心情&消息";
-            myListBoxSubItem70.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem70.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem71.DisplayName = "名称";
             myListBoxSubItem71.HeadImage = null;
             myListBoxSubItem71.ID = 0;
@@ -561,7 +561,7 @@ namespace Windows.Test
             myListBoxSubItem71.IsTwinkle = false;
             myListBoxSubItem71.NicName = "昵称";
             myListBoxSubItem71.PersonalMsg = "心情&消息";
-            myListBoxSubItem71.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem71.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem72.DisplayName = "名称";
             myListBoxSubItem72.HeadImage = null;
             myListBoxSubItem72.ID = 0;
@@ -569,8 +569,8 @@ namespace Windows.Test
             myListBoxSubItem72.IsTwinkle = false;
             myListBoxSubItem72.NicName = "昵称";
             myListBoxSubItem72.PersonalMsg = "心情&消息";
-            myListBoxSubItem72.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem18.SubItems.AddRange(new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem72.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem18.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
             myListBoxSubItem69,
             myListBoxSubItem70,
             myListBoxSubItem71,
@@ -583,7 +583,7 @@ namespace Windows.Test
             myListBoxSubItem73.IsTwinkle = false;
             myListBoxSubItem73.NicName = "昵称";
             myListBoxSubItem73.PersonalMsg = "心情&消息";
-            myListBoxSubItem73.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem73.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem74.DisplayName = "名称";
             myListBoxSubItem74.HeadImage = null;
             myListBoxSubItem74.ID = 0;
@@ -591,7 +591,7 @@ namespace Windows.Test
             myListBoxSubItem74.IsTwinkle = false;
             myListBoxSubItem74.NicName = "昵称";
             myListBoxSubItem74.PersonalMsg = "心情&消息";
-            myListBoxSubItem74.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem74.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem75.DisplayName = "名称";
             myListBoxSubItem75.HeadImage = null;
             myListBoxSubItem75.ID = 0;
@@ -599,7 +599,7 @@ namespace Windows.Test
             myListBoxSubItem75.IsTwinkle = false;
             myListBoxSubItem75.NicName = "昵称";
             myListBoxSubItem75.PersonalMsg = "心情&消息";
-            myListBoxSubItem75.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem75.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem76.DisplayName = "名称";
             myListBoxSubItem76.HeadImage = null;
             myListBoxSubItem76.ID = 0;
@@ -607,8 +607,8 @@ namespace Windows.Test
             myListBoxSubItem76.IsTwinkle = false;
             myListBoxSubItem76.NicName = "昵称";
             myListBoxSubItem76.PersonalMsg = "心情&消息";
-            myListBoxSubItem76.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem19.SubItems.AddRange(new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem76.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem19.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
             myListBoxSubItem73,
             myListBoxSubItem74,
             myListBoxSubItem75,
@@ -621,7 +621,7 @@ namespace Windows.Test
             myListBoxSubItem77.IsTwinkle = false;
             myListBoxSubItem77.NicName = "昵称";
             myListBoxSubItem77.PersonalMsg = "心情&消息";
-            myListBoxSubItem77.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem77.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem78.DisplayName = "名称";
             myListBoxSubItem78.HeadImage = null;
             myListBoxSubItem78.ID = 0;
@@ -629,7 +629,7 @@ namespace Windows.Test
             myListBoxSubItem78.IsTwinkle = false;
             myListBoxSubItem78.NicName = "昵称";
             myListBoxSubItem78.PersonalMsg = "心情&消息";
-            myListBoxSubItem78.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem78.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem79.DisplayName = "名称";
             myListBoxSubItem79.HeadImage = null;
             myListBoxSubItem79.ID = 0;
@@ -637,7 +637,7 @@ namespace Windows.Test
             myListBoxSubItem79.IsTwinkle = false;
             myListBoxSubItem79.NicName = "昵称";
             myListBoxSubItem79.PersonalMsg = "心情&消息";
-            myListBoxSubItem79.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem79.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
             myListBoxSubItem80.DisplayName = "名称";
             myListBoxSubItem80.HeadImage = null;
             myListBoxSubItem80.ID = 0;
@@ -645,14 +645,14 @@ namespace Windows.Test
             myListBoxSubItem80.IsTwinkle = false;
             myListBoxSubItem80.NicName = "昵称";
             myListBoxSubItem80.PersonalMsg = "心情&消息";
-            myListBoxSubItem80.Status = Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem20.SubItems.AddRange(new Windows.Forms.Controls.Forms.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem80.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem20.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
             myListBoxSubItem77,
             myListBoxSubItem78,
             myListBoxSubItem79,
             myListBoxSubItem80});
             myListBoxItem20.Text = "Item";
-            this.myListBox1.Items.AddRange(new Windows.Forms.Controls.Forms.MyListBox.MyListBoxItem[] {
+            this.myListBox1.Items.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxItem[] {
             myListBoxItem17,
             myListBoxItem18,
             myListBoxItem19,
@@ -839,7 +839,7 @@ namespace Windows.Test
         private ImageButton imageButton3;
         private ImageButton imageButton2;
         private ImageButton imageButton1;
-        private Forms.Controls.Forms.MyListBox.MyListBox myListBox1;
+        private Forms.Controls.MyListBox.MyListBox myListBox1;
         private Forms.Controls.Metros.MetroTextBox metroTextBox1;
         private Forms.Controls.Metros.MetroTextBoxSearch metroTextBoxSearch1;
         private Forms.Controls.Metros.MetroButtonSearch metroButtonSearch1;

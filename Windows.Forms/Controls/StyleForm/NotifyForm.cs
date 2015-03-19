@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Windows.Forms.Controls.Enums;
 using Windows.Helper;
 
-namespace Windows.Forms.Controls.Forms.StyleForm
+namespace Windows.Forms.Controls.StyleForm
 {
     public partial class NotifyForm : StanForm
     {

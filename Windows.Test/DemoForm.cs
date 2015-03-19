@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Windows.Forms.Controls.QQControls;
-using Windows.Forms.Controls.Forms.StyleForm;
+using Windows.Forms.Controls.StyleForm;
 using System.Drawing.Drawing2D;
 using Windows.Forms.Controls.Enums;
 

@@ -9,7 +9,7 @@ using System.Collections;
 using System.Threading;
 
 
-namespace Windows.Forms.Controls.Forms.MyList
+namespace Windows.Forms.Controls.MyList
 {
 
     public partial class MyList : Control

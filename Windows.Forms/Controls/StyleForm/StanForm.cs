@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Windows.Forms.Controls.Enums;
-using Windows.Forms.Controls.Forms.WinForm;
+using Windows.Forms.Controls.WinForm;
 using Windows.Forms.Controls.WinAPI;
 
-namespace Windows.Forms.Controls.Forms.StyleForm
+namespace Windows.Forms.Controls.StyleForm
 {
     public partial class StanForm : BaseForm
     {

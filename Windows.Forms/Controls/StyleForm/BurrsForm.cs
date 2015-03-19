@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Windows.Forms.Controls.Enums;
-using Windows.Forms.Controls.Forms.WinForm;
+using Windows.Forms.Controls.WinForm;
 using Windows.Forms.Controls.Methods;
 using Windows.Forms.Controls.WinAPI;
 

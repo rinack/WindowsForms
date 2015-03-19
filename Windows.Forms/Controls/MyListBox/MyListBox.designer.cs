@@ -1,4 +1,4 @@
-﻿namespace Windows.Forms.Controls.Forms.MyListBox
+﻿namespace Windows.Forms.Controls.MyListBox
 {
     partial class MyListBox
     {

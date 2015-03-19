@@ -5,7 +5,7 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Windows.Forms.Controls.Forms.MyListBox
+namespace Windows.Forms.Controls.MyListBox
 {
 
     internal class MyListBoxVScroll

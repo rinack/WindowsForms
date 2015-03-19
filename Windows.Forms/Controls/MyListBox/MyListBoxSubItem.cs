@@ -7,7 +7,7 @@ using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Drawing.Imaging;
 
-namespace Windows.Forms.Controls.Forms.MyListBox
+namespace Windows.Forms.Controls.MyListBox
 {
 
     //有待解决

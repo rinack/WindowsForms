@@ -6,7 +6,7 @@ using System.Collections;
 using System.Drawing;
 using System.ComponentModel;
 
-namespace Windows.Forms.Controls.Forms.MyListBox
+namespace Windows.Forms.Controls.MyListBox
 {
     //TypeConverter未解决
     //[DefaultProperty("Text"),TypeConverter(typeof(MyListBoxItemConverter))]

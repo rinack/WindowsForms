@@ -13,7 +13,7 @@ using System.Windows.Forms;
 using Windows.Forms.Controls.Enums;
 using Windows.Forms.Controls.WinAPI;
 
-namespace Windows.Forms.Controls.Forms.WinForm
+namespace Windows.Forms.Controls.WinForm
 {
     public partial class BaseForm : Form
     {

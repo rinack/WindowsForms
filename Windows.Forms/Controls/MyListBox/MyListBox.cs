@@ -9,7 +9,7 @@ using System.Collections;
 using System.Threading;
 
 
-namespace Windows.Forms.Controls.Forms.MyListBox
+namespace Windows.Forms.Controls.MyListBox
 {
 
     public partial class MyListBox : Control
