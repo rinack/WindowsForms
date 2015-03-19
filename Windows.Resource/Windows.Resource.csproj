@@ -71,6 +71,47 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="System\add.png" />
+    <EmbeddedResource Include="System\add_hover.png" />
+    <EmbeddedResource Include="System\add_normal.png" />
+    <EmbeddedResource Include="System\add_press.png" />
+    <EmbeddedResource Include="System\aio_setting_down.png" />
+    <EmbeddedResource Include="System\aio_setting_hover.png" />
+    <EmbeddedResource Include="System\aio_setting_normal.png" />
+    <EmbeddedResource Include="System\aio_setting_white_down.png" />
+    <EmbeddedResource Include="System\aio_setting_white_hover.png" />
+    <EmbeddedResource Include="System\aio_setting_white_normal.png" />
+    <EmbeddedResource Include="System\appbox_mgr_btn.png" />
+    <EmbeddedResource Include="System\appbox_mgr_btn2.png" />
+    <EmbeddedResource Include="System\appbox_mgr_btn2_down.png" />
+    <EmbeddedResource Include="System\appbox_mgr_btn2_hover.png" />
+    <EmbeddedResource Include="System\appbox_mgr_btn_down.png" />
+    <EmbeddedResource Include="System\appbox_mgr_btn_hover.png" />
+    <EmbeddedResource Include="System\btn_set_hover.png" />
+    <EmbeddedResource Include="System\btn_set_normal.png" />
+    <EmbeddedResource Include="System\btn_set_press.png" />
+    <EmbeddedResource Include="System\sysbtn_close_down.png" />
+    <EmbeddedResource Include="System\sysbtn_close_hover.png" />
+    <EmbeddedResource Include="System\sysbtn_close_normal.png" />
+    <EmbeddedResource Include="System\sysbtn_max_down.png" />
+    <EmbeddedResource Include="System\sysbtn_max_hover.png" />
+    <EmbeddedResource Include="System\sysbtn_max_normal.png" />
+    <EmbeddedResource Include="System\sysbtn_min_down.png" />
+    <EmbeddedResource Include="System\sysbtn_min_hover.png" />
+    <EmbeddedResource Include="System\sysbtn_min_normal.png" />
+    <EmbeddedResource Include="System\sysbtn_restore_down.png" />
+    <EmbeddedResource Include="System\sysbtn_restore_hover.png" />
+    <EmbeddedResource Include="System\sysbtn_restore_normal.png" />
+    <EmbeddedResource Include="System\sysmessagebox_inforFile.png" />
+    <EmbeddedResource Include="System\sysmessagebox_warningFile.png" />
+    <EmbeddedResource Include="System\Tools.png" />
+    <EmbeddedResource Include="System\Tools2.png" />
+    <EmbeddedResource Include="System\tools2_down.png" />
+    <EmbeddedResource Include="System\tools2_hover.png" />
+    <EmbeddedResource Include="System\tools_down.png" />
+    <EmbeddedResource Include="System\tools_hover.png" />
+    <EmbeddedResource Include="System\Tools_normal.png" />
+    <EmbeddedResource Include="System\unknown_icon2.png" />
     <EmbeddedResource Include="StanForm\TextBox\serbtnhover.png" />
     <EmbeddedResource Include="StanForm\TextBox\serbtnnomar.png" />
     <EmbeddedResource Include="StanForm\TextBox\serbtnpres.png" />

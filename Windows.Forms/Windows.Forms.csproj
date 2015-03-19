@@ -231,6 +231,12 @@
     <Compile Include="Controls\StyleForm\BurrsForm.Designer.cs">
       <DependentUpon>BurrsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\StyleForm\MetroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\StyleForm\MetroForm.designer.cs">
+      <DependentUpon>MetroForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\TextBoxEx\DrawHelper.cs" />
     <Compile Include="Controls\TextBoxEx\MyTextBox.cs">
       <SubType>Component</SubType>
