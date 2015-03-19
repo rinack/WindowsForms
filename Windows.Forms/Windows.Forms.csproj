@@ -96,6 +96,15 @@
     <Compile Include="Controls\MainForm.designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\MetroForm\DirectionButton.cs" />
+    <Compile Include="Controls\MetroForm\MetroForm.cs" />
+    <Compile Include="Controls\MetroForm\MetroForm.Designer.cs">
+      <DependentUpon>MetroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MetroForm\MetroItem.cs" />
+    <Compile Include="Controls\MetroForm\MetroItemCollection.cs" />
+    <Compile Include="Controls\MetroForm\MetroRenderer.cs" />
+    <Compile Include="Controls\MetroForm\MetroToolStripRenderer.cs" />
     <Compile Include="Controls\MyListBox\MyListBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -169,19 +178,6 @@
     <Compile Include="Enums\SystemButtonState.cs" />
     <Compile Include="Enums\WindowStyle.cs" />
     <Compile Include="Enums\WindowStyleEx.cs" />
-    <Compile Include="Controls\Metro\DirectionButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Controls\Metro\MetroForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Controls\Metro\MetroForm.Designer.cs">
-      <DependentUpon>MetroForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\Metro\MetroItem.cs" />
-    <Compile Include="Controls\Metro\MetroItemCollection.cs" />
-    <Compile Include="Controls\Metro\MetroRenderer.cs" />
-    <Compile Include="Controls\Metro\MetroToolStripRenderer.cs" />
     <Compile Include="Controls\ScrollbarEx\CustomScrollbar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -221,7 +217,7 @@
     <EmbeddedResource Include="Controls\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\Metro\MetroForm.resx">
+    <EmbeddedResource Include="Controls\MetroForm\MetroForm.resx">
       <DependentUpon>MetroForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\MyListBox\MyListBox.resx">
