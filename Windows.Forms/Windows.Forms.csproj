@@ -55,6 +55,9 @@
     <Compile Include="Controls\ButtonEx\KeyBoardButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\ButtonEx\MyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\ControlsEx\QQButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -96,8 +99,12 @@
     <Compile Include="Controls\MainForm.designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\MetroForm\DirectionButton.cs" />
-    <Compile Include="Controls\MetroForm\MetroForm.cs" />
+    <Compile Include="Controls\MetroForm\DirectionButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MetroForm\MetroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Controls\MetroForm\MetroForm.Designer.cs">
       <DependentUpon>MetroForm.cs</DependentUpon>
     </Compile>
@@ -158,6 +165,12 @@
       <DependentUpon>BurrsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\TextBoxEx\DrawHelper.cs" />
+    <Compile Include="Controls\TextBoxEx\MyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TextBoxEx\MyTextBox.designer.cs">
+      <DependentUpon>MyTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\TextBoxEx\QCDelayTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -237,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TextBoxEx\MyTextBox.resx">
+      <DependentUpon>MyTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
