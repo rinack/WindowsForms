@@ -71,6 +71,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="StanForm\Loading\load.gif" />
+    <EmbeddedResource Include="StanForm\Loading\loading.gif" />
+    <EmbeddedResource Include="StanForm\Loading\loadingGif.gif" />
     <EmbeddedResource Include="StanForm\ListBox\mountaintop50.png" />
     <EmbeddedResource Include="StanForm\ScrollBar\downarrow.png" />
     <EmbeddedResource Include="StanForm\ScrollBar\ThumbBottom.png" />
@@ -131,6 +134,11 @@
     <EmbeddedResource Include="QQControls\QQMessageBox\Icons\qqmessagebox_question.png" />
     <EmbeddedResource Include="QQControls\QQMessageBox\Icons\qqmessagebox_warning.png" />
     <EmbeddedResource Include="QQControls\QQRadioButton\Image\dot.png" />
+    <EmbeddedResource Include="StanForm\Button\button_login_down.png" />
+    <EmbeddedResource Include="StanForm\Button\button_login_hover.png" />
+    <EmbeddedResource Include="StanForm\Button\button_login_normal.png" />
+    <EmbeddedResource Include="StanForm\Find\find_hover.png" />
+    <EmbeddedResource Include="StanForm\Find\Finger_Normal.png" />
     <Content Include="StanForm\head.png" />
     <EmbeddedResource Include="StanForm\ListBox\comboboxEraseButton_Hover.png" />
     <EmbeddedResource Include="StanForm\ListBox\comboboxEraseButton_Normal.bmp" />
