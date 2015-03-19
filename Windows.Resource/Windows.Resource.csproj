@@ -71,6 +71,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="StanForm\TextBox\serbtnhover.png" />
+    <EmbeddedResource Include="StanForm\TextBox\serbtnnomar.png" />
+    <EmbeddedResource Include="StanForm\TextBox\serbtnpres.png" />
+    <EmbeddedResource Include="StanForm\Loading\loadPic.gif" />
+    <EmbeddedResource Include="StanForm\TextBox\edit_frame_hover.png" />
+    <EmbeddedResource Include="StanForm\TextBox\edit_frame_hover_reversed.png" />
+    <EmbeddedResource Include="StanForm\TextBox\edit_frame_normal.png" />
+    <EmbeddedResource Include="StanForm\TextBox\edit_frame_normal_reversed.png" />
+    <EmbeddedResource Include="StanForm\Picture\serbtnhover.png" />
+    <EmbeddedResource Include="StanForm\Picture\serbtnnomar.png" />
+    <EmbeddedResource Include="StanForm\Picture\serbtnpres.png" />
+    <EmbeddedResource Include="StanForm\Picture\loginning_head.png" />
+    <EmbeddedResource Include="StanForm\Picture\hooForSand_bg.jpg" />
     <EmbeddedResource Include="StanForm\Loading\load.gif" />
     <EmbeddedResource Include="StanForm\Loading\loading.gif" />
     <EmbeddedResource Include="StanForm\Loading\loadingGif.gif" />
@@ -139,6 +152,12 @@
     <EmbeddedResource Include="StanForm\Button\button_login_normal.png" />
     <EmbeddedResource Include="StanForm\Find\find_hover.png" />
     <EmbeddedResource Include="StanForm\Find\Finger_Normal.png" />
+    <EmbeddedResource Include="StanForm\CheckBox\checkbox_hightlight.png" />
+    <EmbeddedResource Include="StanForm\CheckBox\checkbox_normal.png" />
+    <EmbeddedResource Include="StanForm\CheckBox\checkbox_pushed.png" />
+    <EmbeddedResource Include="StanForm\CheckBox\checkbox_tick_highlight1.png" />
+    <EmbeddedResource Include="StanForm\CheckBox\checkbox_tick_normal1.png" />
+    <EmbeddedResource Include="StanForm\CheckBox\checkbox_tick_pushed1.png" />
     <Content Include="StanForm\head.png" />
     <EmbeddedResource Include="StanForm\ListBox\comboboxEraseButton_Hover.png" />
     <EmbeddedResource Include="StanForm\ListBox\comboboxEraseButton_Normal.bmp" />

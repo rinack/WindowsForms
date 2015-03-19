@@ -112,6 +112,69 @@
     <Compile Include="Controls\MetroForm\MetroItemCollection.cs" />
     <Compile Include="Controls\MetroForm\MetroRenderer.cs" />
     <Compile Include="Controls\MetroForm\MetroToolStripRenderer.cs" />
+    <Compile Include="Controls\Metros\MetroButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroButton.Designer.cs">
+      <DependentUpon>MetroButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroButtonSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroButtonSearch.Designer.cs">
+      <DependentUpon>MetroButtonSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroCheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroCheckBox.Designer.cs">
+      <DependentUpon>MetroCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroImageLoad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroImageLoad.Designer.cs">
+      <DependentUpon>MetroImageLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroLoding.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroLoding.Designer.cs">
+      <DependentUpon>MetroLoding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroMinLoding.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroMinLoding.Designer.cs">
+      <DependentUpon>MetroMinLoding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroPictureBoxFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroPictureBoxFrame.Designer.cs">
+      <DependentUpon>MetroPictureBoxFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroTextBox.Designer.cs">
+      <DependentUpon>MetroTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroTextBoxSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MetroTextBoxSearch.Designer.cs">
+      <DependentUpon>MetroTextBoxSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MyBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Metros\MyBook.Designer.cs">
+      <DependentUpon>MyBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Metros\MyBookScrollbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Controls\MyListBox\MyListBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -232,6 +295,39 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\MetroForm\MetroForm.resx">
       <DependentUpon>MetroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroButton.resx">
+      <DependentUpon>MetroButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroButtonSearch.resx">
+      <DependentUpon>MetroButtonSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroCheckBox.resx">
+      <DependentUpon>MetroCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroImageLoad.resx">
+      <DependentUpon>MetroImageLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroLoding.resx">
+      <DependentUpon>MetroLoding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroMinLoding.resx">
+      <DependentUpon>MetroMinLoding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroPictureBoxFrame.resx">
+      <DependentUpon>MetroPictureBoxFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroTextBox.resx">
+      <DependentUpon>MetroTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MetroTextBoxSearch.resx">
+      <DependentUpon>MetroTextBoxSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MyBook.resx">
+      <DependentUpon>MyBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Metros\MyBookScrollbar.resx">
+      <DependentUpon>MyBookScrollbar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\MyListBox\MyListBox.resx">
       <DependentUpon>MyListBox.cs</DependentUpon>
