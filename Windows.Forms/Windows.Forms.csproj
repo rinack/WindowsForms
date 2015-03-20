@@ -259,6 +259,13 @@
     <Compile Include="Controls\TextBoxEx\WMKTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\ToolTips\ImageDc.cs" />
+    <Compile Include="Controls\ToolTips\InterpolationModeGraphics.cs" />
+    <Compile Include="Controls\ToolTips\ToolTipColorTable.cs" />
+    <Compile Include="Controls\ToolTips\ToolTipEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ToolTips\ToolTipsEnum.cs" />
     <Compile Include="Enums\ClassStyle.cs" />
     <Compile Include="Enums\ControlState.cs" />
     <Compile Include="Enums\EDirection.cs" />

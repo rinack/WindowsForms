@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.Linq;
 using System.Reflection;
@@ -306,6 +307,48 @@ namespace Windows.Forms.Controls.Methods
             {
                 lBrush.InterpolationColors = colorBlend;
                 g.FillRectangle(lBrush, destRect);
+            }
+        }
+
+        public static void RenderAlphaImage(
+            Graphics g,
+            Image image,
+            Rectangle imageRect,
+            float alpha)
+        {
+            using (ImageAttributes imageAttributes = new ImageAttributes())
+            {
+                ColorMap colorMap = new ColorMap();
+
+                colorMap.OldColor = Color.FromArgb(255, 0, 255, 0);
+                colorMap.NewColor = Color.FromArgb(0, 0, 0, 0);
+
+                ColorMap[] remapTable = { colorMap };
+
+                imageAttributes.SetRemapTable(remapTable, ColorAdjustType.Bitmap);
+
+                float[][] colorMatrixElements = { 
+                    new float[] {1.0f,  0.0f,  0.0f,  0.0f, 0.0f},       
+                    new float[] {0.0f,  1.0f,  0.0f,  0.0f, 0.0f},        
+                    new float[] {0.0f,  0.0f,  1.0f,  0.0f, 0.0f},        
+                    new float[] {0.0f,  0.0f,  0.0f,  alpha, 0.0f},        
+                    new float[] {0.0f,  0.0f,  0.0f,  0.0f, 1.0f}};
+                ColorMatrix wmColorMatrix = new ColorMatrix(colorMatrixElements);
+
+                imageAttributes.SetColorMatrix(
+                    wmColorMatrix,
+                    ColorMatrixFlag.Default,
+                    ColorAdjustType.Bitmap);
+
+                g.DrawImage(
+                    image,
+                    imageRect,
+                    0,
+                    0,
+                    image.Width,
+                    image.Height,
+                    GraphicsUnit.Pixel,
+                    imageAttributes);
             }
         }
     }

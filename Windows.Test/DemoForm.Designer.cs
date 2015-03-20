@@ -30,27 +30,28 @@ namespace Windows.Test
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DemoForm));
-            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem17 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem65 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem66 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem67 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem68 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem18 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem69 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem70 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem71 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem72 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem19 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem73 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem74 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem75 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem76 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem20 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem77 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem78 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem79 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
-            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem80 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem37 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem145 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem146 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem147 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem148 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem38 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem149 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem150 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem151 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem152 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem39 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem153 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem154 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem155 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem156 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxItem myListBoxItem40 = new Windows.Forms.Controls.MyListBox.MyListBoxItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem157 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem158 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem159 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
+            Windows.Forms.Controls.MyListBox.MyListBoxSubItem myListBoxSubItem160 = new Windows.Forms.Controls.MyListBox.MyListBoxSubItem();
             this.qqTextBox3 = new Windows.Forms.Controls.QQControls.QQTextBox();
             this.qqTextBox2 = new Windows.Forms.Controls.QQControls.QQTextBox();
             this.qqTextBox1 = new Windows.Forms.Controls.QQControls.QQTextBox();
@@ -89,6 +90,7 @@ namespace Windows.Test
             this.metroCheckBox1 = new Windows.Forms.Controls.Metros.MetroCheckBox();
             this.metroTextBox2 = new Windows.Forms.Controls.Metros.MetroTextBox();
             this.metroPictureBoxFrame1 = new Windows.Forms.Controls.Metros.MetroPictureBoxFrame();
+            this.toolTipEx1 = new Windows.Forms.Controls.ToolTips.ToolTipEx(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton2)).BeginInit();
@@ -214,7 +216,7 @@ namespace Windows.Test
             // qqButton5
             // 
             this.qqButton5.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqButton5.Location = new System.Drawing.Point(378, 269);
+            this.qqButton5.Location = new System.Drawing.Point(378, 261);
             this.qqButton5.Name = "qqButton5";
             this.qqButton5.Size = new System.Drawing.Size(159, 29);
             this.qqButton5.TabIndex = 23;
@@ -248,7 +250,7 @@ namespace Windows.Test
             this.qqCheckBox3.BackColor = System.Drawing.Color.Transparent;
             this.qqCheckBox3.Enabled = false;
             this.qqCheckBox3.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqCheckBox3.Location = new System.Drawing.Point(208, 277);
+            this.qqCheckBox3.Location = new System.Drawing.Point(208, 261);
             this.qqCheckBox3.Name = "qqCheckBox3";
             this.qqCheckBox3.Size = new System.Drawing.Size(75, 21);
             this.qqCheckBox3.TabIndex = 28;
@@ -262,7 +264,7 @@ namespace Windows.Test
             this.qqCheckBox2.Checked = true;
             this.qqCheckBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.qqCheckBox2.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqCheckBox2.Location = new System.Drawing.Point(127, 277);
+            this.qqCheckBox2.Location = new System.Drawing.Point(127, 261);
             this.qqCheckBox2.Name = "qqCheckBox2";
             this.qqCheckBox2.Size = new System.Drawing.Size(75, 21);
             this.qqCheckBox2.TabIndex = 27;
@@ -276,7 +278,7 @@ namespace Windows.Test
             this.qqCheckBox1.Checked = true;
             this.qqCheckBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.qqCheckBox1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqCheckBox1.Location = new System.Drawing.Point(51, 280);
+            this.qqCheckBox1.Location = new System.Drawing.Point(51, 261);
             this.qqCheckBox1.Name = "qqCheckBox1";
             this.qqCheckBox1.Size = new System.Drawing.Size(75, 21);
             this.qqCheckBox1.TabIndex = 26;
@@ -289,7 +291,7 @@ namespace Windows.Test
             this.qqRadioButton3.BackColor = System.Drawing.Color.Transparent;
             this.qqRadioButton3.Enabled = false;
             this.qqRadioButton3.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqRadioButton3.Location = new System.Drawing.Point(208, 230);
+            this.qqRadioButton3.Location = new System.Drawing.Point(208, 222);
             this.qqRadioButton3.Name = "qqRadioButton3";
             this.qqRadioButton3.Size = new System.Drawing.Size(62, 21);
             this.qqRadioButton3.TabIndex = 31;
@@ -302,7 +304,7 @@ namespace Windows.Test
             this.qqRadioButton2.AutoSize = true;
             this.qqRadioButton2.BackColor = System.Drawing.Color.Transparent;
             this.qqRadioButton2.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqRadioButton2.Location = new System.Drawing.Point(128, 230);
+            this.qqRadioButton2.Location = new System.Drawing.Point(128, 222);
             this.qqRadioButton2.Name = "qqRadioButton2";
             this.qqRadioButton2.Size = new System.Drawing.Size(74, 21);
             this.qqRadioButton2.TabIndex = 30;
@@ -316,7 +318,7 @@ namespace Windows.Test
             this.qqRadioButton1.BackColor = System.Drawing.Color.Transparent;
             this.qqRadioButton1.Checked = true;
             this.qqRadioButton1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqRadioButton1.Location = new System.Drawing.Point(48, 230);
+            this.qqRadioButton1.Location = new System.Drawing.Point(48, 222);
             this.qqRadioButton1.Name = "qqRadioButton1";
             this.qqRadioButton1.Size = new System.Drawing.Size(74, 21);
             this.qqRadioButton1.TabIndex = 29;
@@ -330,7 +332,7 @@ namespace Windows.Test
             this.qqGlassButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.qqGlassButton4.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.qqGlassButton4.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton4.Image")));
-            this.qqGlassButton4.Location = new System.Drawing.Point(190, 326);
+            this.qqGlassButton4.Location = new System.Drawing.Point(190, 309);
             this.qqGlassButton4.Name = "qqGlassButton4";
             this.qqGlassButton4.Size = new System.Drawing.Size(22, 23);
             this.qqGlassButton4.TabIndex = 35;
@@ -342,7 +344,7 @@ namespace Windows.Test
             this.qqGlassButton3.BackColor = System.Drawing.Color.Transparent;
             this.qqGlassButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.qqGlassButton3.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqGlassButton3.Location = new System.Drawing.Point(224, 326);
+            this.qqGlassButton3.Location = new System.Drawing.Point(224, 309);
             this.qqGlassButton3.Name = "qqGlassButton3";
             this.qqGlassButton3.Size = new System.Drawing.Size(63, 23);
             this.qqGlassButton3.TabIndex = 34;
@@ -356,7 +358,7 @@ namespace Windows.Test
             this.qqGlassButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.qqGlassButton2.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.qqGlassButton2.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton2.Image")));
-            this.qqGlassButton2.Location = new System.Drawing.Point(115, 325);
+            this.qqGlassButton2.Location = new System.Drawing.Point(115, 309);
             this.qqGlassButton2.Name = "qqGlassButton2";
             this.qqGlassButton2.Size = new System.Drawing.Size(58, 23);
             this.qqGlassButton2.TabIndex = 33;
@@ -370,7 +372,7 @@ namespace Windows.Test
             this.qqGlassButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.qqGlassButton1.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.qqGlassButton1.Image = ((System.Drawing.Image)(resources.GetObject("qqGlassButton1.Image")));
-            this.qqGlassButton1.Location = new System.Drawing.Point(51, 325);
+            this.qqGlassButton1.Location = new System.Drawing.Point(51, 309);
             this.qqGlassButton1.Name = "qqGlassButton1";
             this.qqGlassButton1.Size = new System.Drawing.Size(58, 23);
             this.qqGlassButton1.TabIndex = 32;
@@ -500,163 +502,163 @@ namespace Windows.Test
             this.myListBox1.ForeColor = System.Drawing.Color.Black;
             this.myListBox1.ItemColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myListBox1.ItemMouseOnColor = System.Drawing.Color.LightSkyBlue;
-            myListBoxSubItem65.DisplayName = "名称";
-            myListBoxSubItem65.HeadImage = null;
-            myListBoxSubItem65.ID = 0;
-            myListBoxSubItem65.IpAddress = null;
-            myListBoxSubItem65.IsTwinkle = false;
-            myListBoxSubItem65.NicName = "昵称";
-            myListBoxSubItem65.PersonalMsg = "心情&消息";
-            myListBoxSubItem65.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem66.DisplayName = "名称";
-            myListBoxSubItem66.HeadImage = null;
-            myListBoxSubItem66.ID = 0;
-            myListBoxSubItem66.IpAddress = null;
-            myListBoxSubItem66.IsTwinkle = false;
-            myListBoxSubItem66.NicName = "昵称";
-            myListBoxSubItem66.PersonalMsg = "心情&消息";
-            myListBoxSubItem66.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem67.DisplayName = "名称";
-            myListBoxSubItem67.HeadImage = null;
-            myListBoxSubItem67.ID = 0;
-            myListBoxSubItem67.IpAddress = null;
-            myListBoxSubItem67.IsTwinkle = false;
-            myListBoxSubItem67.NicName = "昵称";
-            myListBoxSubItem67.PersonalMsg = "心情&消息";
-            myListBoxSubItem67.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem68.DisplayName = "名称";
-            myListBoxSubItem68.HeadImage = null;
-            myListBoxSubItem68.ID = 0;
-            myListBoxSubItem68.IpAddress = null;
-            myListBoxSubItem68.IsTwinkle = false;
-            myListBoxSubItem68.NicName = "昵称";
-            myListBoxSubItem68.PersonalMsg = "心情&消息";
-            myListBoxSubItem68.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem17.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
-            myListBoxSubItem65,
-            myListBoxSubItem66,
-            myListBoxSubItem67,
-            myListBoxSubItem68});
-            myListBoxItem17.Text = "Item";
-            myListBoxSubItem69.DisplayName = "名称";
-            myListBoxSubItem69.HeadImage = null;
-            myListBoxSubItem69.ID = 0;
-            myListBoxSubItem69.IpAddress = null;
-            myListBoxSubItem69.IsTwinkle = false;
-            myListBoxSubItem69.NicName = "昵称";
-            myListBoxSubItem69.PersonalMsg = "心情&消息";
-            myListBoxSubItem69.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem70.DisplayName = "名称";
-            myListBoxSubItem70.HeadImage = null;
-            myListBoxSubItem70.ID = 0;
-            myListBoxSubItem70.IpAddress = null;
-            myListBoxSubItem70.IsTwinkle = false;
-            myListBoxSubItem70.NicName = "昵称";
-            myListBoxSubItem70.PersonalMsg = "心情&消息";
-            myListBoxSubItem70.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem71.DisplayName = "名称";
-            myListBoxSubItem71.HeadImage = null;
-            myListBoxSubItem71.ID = 0;
-            myListBoxSubItem71.IpAddress = null;
-            myListBoxSubItem71.IsTwinkle = false;
-            myListBoxSubItem71.NicName = "昵称";
-            myListBoxSubItem71.PersonalMsg = "心情&消息";
-            myListBoxSubItem71.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem72.DisplayName = "名称";
-            myListBoxSubItem72.HeadImage = null;
-            myListBoxSubItem72.ID = 0;
-            myListBoxSubItem72.IpAddress = null;
-            myListBoxSubItem72.IsTwinkle = false;
-            myListBoxSubItem72.NicName = "昵称";
-            myListBoxSubItem72.PersonalMsg = "心情&消息";
-            myListBoxSubItem72.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem18.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
-            myListBoxSubItem69,
-            myListBoxSubItem70,
-            myListBoxSubItem71,
-            myListBoxSubItem72});
-            myListBoxItem18.Text = "Item";
-            myListBoxSubItem73.DisplayName = "名称";
-            myListBoxSubItem73.HeadImage = null;
-            myListBoxSubItem73.ID = 0;
-            myListBoxSubItem73.IpAddress = null;
-            myListBoxSubItem73.IsTwinkle = false;
-            myListBoxSubItem73.NicName = "昵称";
-            myListBoxSubItem73.PersonalMsg = "心情&消息";
-            myListBoxSubItem73.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem74.DisplayName = "名称";
-            myListBoxSubItem74.HeadImage = null;
-            myListBoxSubItem74.ID = 0;
-            myListBoxSubItem74.IpAddress = null;
-            myListBoxSubItem74.IsTwinkle = false;
-            myListBoxSubItem74.NicName = "昵称";
-            myListBoxSubItem74.PersonalMsg = "心情&消息";
-            myListBoxSubItem74.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem75.DisplayName = "名称";
-            myListBoxSubItem75.HeadImage = null;
-            myListBoxSubItem75.ID = 0;
-            myListBoxSubItem75.IpAddress = null;
-            myListBoxSubItem75.IsTwinkle = false;
-            myListBoxSubItem75.NicName = "昵称";
-            myListBoxSubItem75.PersonalMsg = "心情&消息";
-            myListBoxSubItem75.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem76.DisplayName = "名称";
-            myListBoxSubItem76.HeadImage = null;
-            myListBoxSubItem76.ID = 0;
-            myListBoxSubItem76.IpAddress = null;
-            myListBoxSubItem76.IsTwinkle = false;
-            myListBoxSubItem76.NicName = "昵称";
-            myListBoxSubItem76.PersonalMsg = "心情&消息";
-            myListBoxSubItem76.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem19.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
-            myListBoxSubItem73,
-            myListBoxSubItem74,
-            myListBoxSubItem75,
-            myListBoxSubItem76});
-            myListBoxItem19.Text = "Item";
-            myListBoxSubItem77.DisplayName = "名称";
-            myListBoxSubItem77.HeadImage = null;
-            myListBoxSubItem77.ID = 0;
-            myListBoxSubItem77.IpAddress = null;
-            myListBoxSubItem77.IsTwinkle = false;
-            myListBoxSubItem77.NicName = "昵称";
-            myListBoxSubItem77.PersonalMsg = "心情&消息";
-            myListBoxSubItem77.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem78.DisplayName = "名称";
-            myListBoxSubItem78.HeadImage = null;
-            myListBoxSubItem78.ID = 0;
-            myListBoxSubItem78.IpAddress = null;
-            myListBoxSubItem78.IsTwinkle = false;
-            myListBoxSubItem78.NicName = "昵称";
-            myListBoxSubItem78.PersonalMsg = "心情&消息";
-            myListBoxSubItem78.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem79.DisplayName = "名称";
-            myListBoxSubItem79.HeadImage = null;
-            myListBoxSubItem79.ID = 0;
-            myListBoxSubItem79.IpAddress = null;
-            myListBoxSubItem79.IsTwinkle = false;
-            myListBoxSubItem79.NicName = "昵称";
-            myListBoxSubItem79.PersonalMsg = "心情&消息";
-            myListBoxSubItem79.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxSubItem80.DisplayName = "名称";
-            myListBoxSubItem80.HeadImage = null;
-            myListBoxSubItem80.ID = 0;
-            myListBoxSubItem80.IpAddress = null;
-            myListBoxSubItem80.IsTwinkle = false;
-            myListBoxSubItem80.NicName = "昵称";
-            myListBoxSubItem80.PersonalMsg = "心情&消息";
-            myListBoxSubItem80.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
-            myListBoxItem20.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
-            myListBoxSubItem77,
-            myListBoxSubItem78,
-            myListBoxSubItem79,
-            myListBoxSubItem80});
-            myListBoxItem20.Text = "Item";
+            myListBoxSubItem145.DisplayName = "名称";
+            myListBoxSubItem145.HeadImage = null;
+            myListBoxSubItem145.ID = 0;
+            myListBoxSubItem145.IpAddress = null;
+            myListBoxSubItem145.IsTwinkle = false;
+            myListBoxSubItem145.NicName = "昵称";
+            myListBoxSubItem145.PersonalMsg = "心情&消息";
+            myListBoxSubItem145.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem146.DisplayName = "名称";
+            myListBoxSubItem146.HeadImage = null;
+            myListBoxSubItem146.ID = 0;
+            myListBoxSubItem146.IpAddress = null;
+            myListBoxSubItem146.IsTwinkle = false;
+            myListBoxSubItem146.NicName = "昵称";
+            myListBoxSubItem146.PersonalMsg = "心情&消息";
+            myListBoxSubItem146.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem147.DisplayName = "名称";
+            myListBoxSubItem147.HeadImage = null;
+            myListBoxSubItem147.ID = 0;
+            myListBoxSubItem147.IpAddress = null;
+            myListBoxSubItem147.IsTwinkle = false;
+            myListBoxSubItem147.NicName = "昵称";
+            myListBoxSubItem147.PersonalMsg = "心情&消息";
+            myListBoxSubItem147.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem148.DisplayName = "名称";
+            myListBoxSubItem148.HeadImage = null;
+            myListBoxSubItem148.ID = 0;
+            myListBoxSubItem148.IpAddress = null;
+            myListBoxSubItem148.IsTwinkle = false;
+            myListBoxSubItem148.NicName = "昵称";
+            myListBoxSubItem148.PersonalMsg = "心情&消息";
+            myListBoxSubItem148.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem37.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem145,
+            myListBoxSubItem146,
+            myListBoxSubItem147,
+            myListBoxSubItem148});
+            myListBoxItem37.Text = "Item";
+            myListBoxSubItem149.DisplayName = "名称";
+            myListBoxSubItem149.HeadImage = null;
+            myListBoxSubItem149.ID = 0;
+            myListBoxSubItem149.IpAddress = null;
+            myListBoxSubItem149.IsTwinkle = false;
+            myListBoxSubItem149.NicName = "昵称";
+            myListBoxSubItem149.PersonalMsg = "心情&消息";
+            myListBoxSubItem149.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem150.DisplayName = "名称";
+            myListBoxSubItem150.HeadImage = null;
+            myListBoxSubItem150.ID = 0;
+            myListBoxSubItem150.IpAddress = null;
+            myListBoxSubItem150.IsTwinkle = false;
+            myListBoxSubItem150.NicName = "昵称";
+            myListBoxSubItem150.PersonalMsg = "心情&消息";
+            myListBoxSubItem150.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem151.DisplayName = "名称";
+            myListBoxSubItem151.HeadImage = null;
+            myListBoxSubItem151.ID = 0;
+            myListBoxSubItem151.IpAddress = null;
+            myListBoxSubItem151.IsTwinkle = false;
+            myListBoxSubItem151.NicName = "昵称";
+            myListBoxSubItem151.PersonalMsg = "心情&消息";
+            myListBoxSubItem151.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem152.DisplayName = "名称";
+            myListBoxSubItem152.HeadImage = null;
+            myListBoxSubItem152.ID = 0;
+            myListBoxSubItem152.IpAddress = null;
+            myListBoxSubItem152.IsTwinkle = false;
+            myListBoxSubItem152.NicName = "昵称";
+            myListBoxSubItem152.PersonalMsg = "心情&消息";
+            myListBoxSubItem152.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem38.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem149,
+            myListBoxSubItem150,
+            myListBoxSubItem151,
+            myListBoxSubItem152});
+            myListBoxItem38.Text = "Item";
+            myListBoxSubItem153.DisplayName = "名称";
+            myListBoxSubItem153.HeadImage = null;
+            myListBoxSubItem153.ID = 0;
+            myListBoxSubItem153.IpAddress = null;
+            myListBoxSubItem153.IsTwinkle = false;
+            myListBoxSubItem153.NicName = "昵称";
+            myListBoxSubItem153.PersonalMsg = "心情&消息";
+            myListBoxSubItem153.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem154.DisplayName = "名称";
+            myListBoxSubItem154.HeadImage = null;
+            myListBoxSubItem154.ID = 0;
+            myListBoxSubItem154.IpAddress = null;
+            myListBoxSubItem154.IsTwinkle = false;
+            myListBoxSubItem154.NicName = "昵称";
+            myListBoxSubItem154.PersonalMsg = "心情&消息";
+            myListBoxSubItem154.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem155.DisplayName = "名称";
+            myListBoxSubItem155.HeadImage = null;
+            myListBoxSubItem155.ID = 0;
+            myListBoxSubItem155.IpAddress = null;
+            myListBoxSubItem155.IsTwinkle = false;
+            myListBoxSubItem155.NicName = "昵称";
+            myListBoxSubItem155.PersonalMsg = "心情&消息";
+            myListBoxSubItem155.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem156.DisplayName = "名称";
+            myListBoxSubItem156.HeadImage = null;
+            myListBoxSubItem156.ID = 0;
+            myListBoxSubItem156.IpAddress = null;
+            myListBoxSubItem156.IsTwinkle = false;
+            myListBoxSubItem156.NicName = "昵称";
+            myListBoxSubItem156.PersonalMsg = "心情&消息";
+            myListBoxSubItem156.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem39.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem153,
+            myListBoxSubItem154,
+            myListBoxSubItem155,
+            myListBoxSubItem156});
+            myListBoxItem39.Text = "Item";
+            myListBoxSubItem157.DisplayName = "名称";
+            myListBoxSubItem157.HeadImage = null;
+            myListBoxSubItem157.ID = 0;
+            myListBoxSubItem157.IpAddress = null;
+            myListBoxSubItem157.IsTwinkle = false;
+            myListBoxSubItem157.NicName = "昵称";
+            myListBoxSubItem157.PersonalMsg = "心情&消息";
+            myListBoxSubItem157.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem158.DisplayName = "名称";
+            myListBoxSubItem158.HeadImage = null;
+            myListBoxSubItem158.ID = 0;
+            myListBoxSubItem158.IpAddress = null;
+            myListBoxSubItem158.IsTwinkle = false;
+            myListBoxSubItem158.NicName = "昵称";
+            myListBoxSubItem158.PersonalMsg = "心情&消息";
+            myListBoxSubItem158.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem159.DisplayName = "名称";
+            myListBoxSubItem159.HeadImage = null;
+            myListBoxSubItem159.ID = 0;
+            myListBoxSubItem159.IpAddress = null;
+            myListBoxSubItem159.IsTwinkle = false;
+            myListBoxSubItem159.NicName = "昵称";
+            myListBoxSubItem159.PersonalMsg = "心情&消息";
+            myListBoxSubItem159.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxSubItem160.DisplayName = "名称";
+            myListBoxSubItem160.HeadImage = null;
+            myListBoxSubItem160.ID = 0;
+            myListBoxSubItem160.IpAddress = null;
+            myListBoxSubItem160.IsTwinkle = false;
+            myListBoxSubItem160.NicName = "昵称";
+            myListBoxSubItem160.PersonalMsg = "心情&消息";
+            myListBoxSubItem160.Status = Windows.Forms.Controls.MyListBox.MyListBoxSubItem.UserStatus.Online;
+            myListBoxItem40.SubItems.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxSubItem[] {
+            myListBoxSubItem157,
+            myListBoxSubItem158,
+            myListBoxSubItem159,
+            myListBoxSubItem160});
+            myListBoxItem40.Text = "Item";
             this.myListBox1.Items.AddRange(new Windows.Forms.Controls.MyListBox.MyListBoxItem[] {
-            myListBoxItem17,
-            myListBoxItem18,
-            myListBoxItem19,
-            myListBoxItem20});
+            myListBoxItem37,
+            myListBoxItem38,
+            myListBoxItem39,
+            myListBoxItem40});
             this.myListBox1.Location = new System.Drawing.Point(588, 315);
             this.myListBox1.Name = "myListBox1";
             this.myListBox1.ScrollArrowBackColor = System.Drawing.Color.Silver;
@@ -683,7 +685,7 @@ namespace Windows.Test
             // 
             this.metroTextBoxSearch1.BackColor = System.Drawing.Color.Transparent;
             this.metroTextBoxSearch1.Font = new System.Drawing.Font("宋体", 9F);
-            this.metroTextBoxSearch1.Location = new System.Drawing.Point(315, 427);
+            this.metroTextBoxSearch1.Location = new System.Drawing.Point(315, 405);
             this.metroTextBoxSearch1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.metroTextBoxSearch1.MaximumSize = new System.Drawing.Size(500, 31);
             this.metroTextBoxSearch1.MinimumSize = new System.Drawing.Size(0, 31);
@@ -695,7 +697,7 @@ namespace Windows.Test
             // metroButtonSearch1
             // 
             this.metroButtonSearch1.BackColor = System.Drawing.Color.Transparent;
-            this.metroButtonSearch1.Location = new System.Drawing.Point(378, 380);
+            this.metroButtonSearch1.Location = new System.Drawing.Point(380, 369);
             this.metroButtonSearch1.Name = "metroButtonSearch1";
             this.metroButtonSearch1.Size = new System.Drawing.Size(25, 25);
             this.metroButtonSearch1.TabIndex = 47;
@@ -705,7 +707,7 @@ namespace Windows.Test
             this.metroButton1.BackColor = System.Drawing.Color.Transparent;
             this.metroButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton1.BackgroundImage")));
             this.metroButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.metroButton1.Location = new System.Drawing.Point(378, 319);
+            this.metroButton1.Location = new System.Drawing.Point(378, 302);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(159, 30);
             this.metroButton1.TabIndex = 48;
@@ -716,7 +718,7 @@ namespace Windows.Test
             this.metroCheckBox1.BackColor = System.Drawing.Color.Transparent;
             this.metroCheckBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroCheckBox1.Checked = true;
-            this.metroCheckBox1.Location = new System.Drawing.Point(464, 380);
+            this.metroCheckBox1.Location = new System.Drawing.Point(440, 369);
             this.metroCheckBox1.Name = "metroCheckBox1";
             this.metroCheckBox1.Size = new System.Drawing.Size(71, 16);
             this.metroCheckBox1.TabIndex = 49;
@@ -726,7 +728,7 @@ namespace Windows.Test
             // 
             this.metroTextBox2.BackColor = System.Drawing.Color.Transparent;
             this.metroTextBox2.IsPassWord = true;
-            this.metroTextBox2.Location = new System.Drawing.Point(51, 427);
+            this.metroTextBox2.Location = new System.Drawing.Point(51, 405);
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.Size = new System.Drawing.Size(195, 30);
             this.metroTextBox2.TabIndex = 50;
@@ -740,6 +742,13 @@ namespace Windows.Test
             this.metroPictureBoxFrame1.Name = "metroPictureBoxFrame1";
             this.metroPictureBoxFrame1.Size = new System.Drawing.Size(96, 96);
             this.metroPictureBoxFrame1.TabIndex = 0;
+            // 
+            // toolTipEx1
+            // 
+            this.toolTipEx1.AutoPopDelay = 5000;
+            this.toolTipEx1.InitialDelay = 500;
+            this.toolTipEx1.OwnerDraw = true;
+            this.toolTipEx1.ReshowDelay = 800;
             // 
             // DemoForm
             // 
@@ -789,6 +798,7 @@ namespace Windows.Test
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "DemoForm";
             this.Text = "自定义控件库演示Demo";
+            this.toolTipEx1.SetToolTip(this, "111");
             this.Load += new System.EventHandler(this.FormDemo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton3)).EndInit();
@@ -847,5 +857,6 @@ namespace Windows.Test
         private Forms.Controls.Metros.MetroCheckBox metroCheckBox1;
         private Forms.Controls.Metros.MetroTextBox metroTextBox2;
         private Forms.Controls.Metros.MetroPictureBoxFrame metroPictureBoxFrame1;
+        private Forms.Controls.ToolTips.ToolTipEx toolTipEx1;
     }
 }

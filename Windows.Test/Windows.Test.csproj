@@ -202,6 +202,10 @@
       <Project>{9b4b6278-5d5a-4e6c-84ee-8918c6769e9d}</Project>
       <Name>Windows.Forms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Windows.Resource\Windows.Resource.csproj">
+      <Project>{934947be-60d9-476a-9928-5455b4c6c637}</Project>
+      <Name>Windows.Resource</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -415,6 +415,9 @@ namespace Windows.Forms.Controls.WinAPI
         [DllImport("user32.dll", EntryPoint = "WindowFromPoint")]
         public static extern IntPtr WindowFromPoint(POINT Point);
 
+        [DllImport("user32.dll", SetLastError = false)]
+        public static extern IntPtr GetDesktopWindow();
+
         #region hook
         /// <summary>
         ///     <para>该函数将一个应用程序定义的挂钩处理过程安装到挂钩链中去,您可以</para>
@@ -497,6 +500,78 @@ namespace Windows.Forms.Controls.WinAPI
         /// <returns></returns>
         [DllImport("gdi32.dll", ExactSpelling = true, SetLastError = true)]
         public static extern IntPtr SelectObject(IntPtr hDC, IntPtr hObject);
+
+        [DllImport("user32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        public static extern bool GetWindowRect(IntPtr hWnd, ref RECT lpRect);
+
+        [DllImport("gdi32.dll", EntryPoint = "GdiAlphaBlend")]
+        public static extern bool AlphaBlend(
+            IntPtr hdcDest,
+            int nXOriginDest,
+            int nYOriginDest,
+            int nWidthDest,
+            int nHeightDest,
+            IntPtr hdcSrc,
+            int nXOriginSrc,
+            int nYOriginSrc,
+            int nWidthSrc,
+            int nHeightSrc,
+            BLENDFUNCTION blendFunction);
+
+        [DllImport("gdi32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        public static extern bool StretchBlt(
+            IntPtr hDest,
+            int X,
+            int Y,
+            int nWidth,
+            int nHeight,
+            IntPtr hdcSrc,
+            int sX,
+            int sY,
+            int nWidthSrc,
+            int nHeightSrc,
+            int dwRop);
+
+        [DllImport("gdi32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        public static extern bool BitBlt(
+            IntPtr hdc,
+            int nXDest,
+            int nYDest,
+            int nWidth,
+            int nHeight,
+            IntPtr hdcSrc,
+            int nXSrc,
+            int nYSrc,
+            int dwRop);
+
+        [DllImport("gdi32.dll")]
+        public static extern IntPtr CreateDCA(
+            [MarshalAs(UnmanagedType.LPStr)]string lpszDriver,
+            [MarshalAs(UnmanagedType.LPStr)]string lpszDevice,
+            [MarshalAs(UnmanagedType.LPStr)]string lpszOutput,
+            int lpInitData);
+
+        [DllImport("gdi32.dll")]
+        public static extern IntPtr CreateDCW(
+            [MarshalAs(UnmanagedType.LPWStr)]string lpszDriver,
+            [MarshalAs(UnmanagedType.LPWStr)]string lpszDevice,
+            [MarshalAs(UnmanagedType.LPWStr)]string lpszOutput,
+            int lpInitData);
+
+        [DllImport("gdi32.dll")]
+        public static extern IntPtr CreateDC(
+            string lpszDriver,
+            string lpszDevice,
+            string lpszOutput,
+            int lpInitData);
+
+        [DllImport("gdi32.dll")]
+        public static extern IntPtr CreateCompatibleBitmap(
+            IntPtr hdc, int nWidth, int nHeight);
+
         #endregion
 
         #region Other Methods

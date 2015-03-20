@@ -11,6 +11,7 @@ using Windows.Forms.Controls.QQControls;
 using Windows.Forms.Controls.StyleForm;
 using System.Drawing.Drawing2D;
 using Windows.Forms.Controls.Enums;
+using Windows.Forms;
 
 namespace Windows.Test
 {
@@ -85,7 +86,6 @@ namespace Windows.Test
             }
         }
 
-
         private void SetStyles()
         {
             SetStyle(ControlStyles.UserPaint, true);
@@ -113,5 +113,104 @@ namespace Windows.Test
                 QQMessageBoxIcon.OK,
                 QQMessageBoxButtons.OK);
         }
+
+        #region ToolTip 控件浮动提示消息
+
+        private string _toolTipTitle = "ToolTipEx示例";
+        private string _toolTip =
+            "ToolTipEx示例-{0}。\r\n" +
+            "                    ——浮动提示\r\n" +
+            "                         2015.03.20";
+
+        private Image image= AssemblyHelper.GetImage("Icons.start.png");
+       
+        private void SetToolTip(Control control, string tip)
+        {
+            toolTipEx1.SetToolTip(
+                control,
+                string.Format(_toolTip, tip));
+        }
+
+        private void ResetToolTip()
+        {
+            toolTipEx1.Active = false;
+            toolTipEx1.Opacity = 1D;
+            toolTipEx1.ImageSize = new Size(16, 16);
+            toolTipEx1.Image = null;
+            toolTipEx1.ToolTipTitle = "";
+        }
+
+        private void Init()
+        {
+            toolTipEx1.Active = false;
+            //SetToolTip(label1, "无标题");
+            //SetToolTip(label2, "系统图标");
+            //SetToolTip(label3, "自定义图标");
+            //SetToolTip(label4, "大图标");
+            //SetToolTip(label5, "透明");
+
+            //label1.MouseEnter += delegate(object sender, EventArgs e)
+            //{
+            //    toolTipEx1.Active = true;
+            //};
+
+            //label2.MouseEnter += delegate(object sender, EventArgs e)
+            //{
+            //    toolTipEx1.ToolTipIcon = ToolTipIcon.Info;
+            //    toolTipEx1.ToolTipTitle = _toolTipTitle;
+            //    toolTipEx1.Active = true;
+            //};
+
+            //label3.MouseEnter += delegate(object sender, EventArgs e)
+            //{
+            //    toolTipEx1.Image = image;
+            //    toolTipEx1.ToolTipTitle = _toolTipTitle;
+            //    toolTipEx1.Active = true;
+            //};
+
+            //label4.MouseEnter += delegate(object sender, EventArgs e)
+            //{
+            //    toolTipEx1.ImageSize = new Size(32, 32);
+            //    toolTipEx1.Image = image;
+            //    toolTipEx1.ToolTipTitle = _toolTipTitle;
+            //    toolTipEx1.Active = true;
+            //};
+
+            //label5.MouseEnter += delegate(object sender, EventArgs e)
+            //{
+            //    toolTipEx1.Opacity = 0.7D;
+            //    toolTipEx1.ImageSize = new Size(24, 24);
+            //    toolTipEx1.Image = image;
+            //    toolTipEx1.ToolTipTitle = _toolTipTitle;
+            //    toolTipEx1.Active = true;
+            //};
+
+            //label1.MouseLeave += delegate(object sender, EventArgs e)
+            //{
+            //    ResetToolTip();
+            //};
+
+            //label2.MouseLeave += delegate(object sender, EventArgs e)
+            //{
+            //    ResetToolTip();
+            //};
+
+            //label3.MouseLeave += delegate(object sender, EventArgs e)
+            //{
+            //    ResetToolTip();
+            //};
+
+            //label4.MouseLeave += delegate(object sender, EventArgs e)
+            //{
+            //    ResetToolTip();
+            //};
+
+            //label5.MouseLeave += delegate(object sender, EventArgs e)
+            //{
+            //    ResetToolTip();
+            //};
+        }
+
+        #endregion
     }
 }
