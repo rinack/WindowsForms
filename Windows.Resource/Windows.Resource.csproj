@@ -200,6 +200,7 @@
     <EmbeddedResource Include="StanForm\CheckBox\checkbox_tick_normal1.png" />
     <EmbeddedResource Include="StanForm\CheckBox\checkbox_tick_pushed1.png" />
     <Content Include="FlatForm\Form\frameground.png" />
+    <EmbeddedResource Include="StanForm\FormFrame\Metro_fringe_bkg.png" />
     <Content Include="StanForm\head.png" />
     <EmbeddedResource Include="StanForm\ListBox\comboboxEraseButton_Hover.png" />
     <EmbeddedResource Include="StanForm\ListBox\comboboxEraseButton_Normal.bmp" />
