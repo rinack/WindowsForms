@@ -44,6 +44,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlphaForm\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaForm\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlphaForm\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaForm\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlphaForm\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaForm\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlphaForm\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaForm\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlphaForm\Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaForm\Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
     <Compile Include="DemoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +112,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlphaForm\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphaForm\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphaForm\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphaForm\Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DemoForm.resx">
       <DependentUpon>DemoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +159,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AlphaForm\skin1.tif" />
+    <Content Include="AlphaForm\skin2.tif" />
+    <Content Include="AlphaForm\tvpic1.jpg" />
+    <Content Include="AlphaForm\tvpic2.jpg" />
     <Content Include="Image\360Safe.ico" />
     <Content Include="Image\FormBackgroundImage\bkg_beautifulcity.jpg" />
     <Content Include="Image\FormBackgroundImage\bkg_beer.jpg" />

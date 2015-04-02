@@ -201,6 +201,10 @@
     <EmbeddedResource Include="StanForm\CheckBox\checkbox_tick_pushed1.png" />
     <EmbeddedResource Include="AlphaForm\marker.png" />
     <EmbeddedResource Include="AlphaForm\Transformer.png" />
+    <EmbeddedResource Include="AlphaForm\tvpic1.jpg" />
+    <EmbeddedResource Include="AlphaForm\tvpic2.jpg" />
+    <EmbeddedResource Include="AlphaForm\skin1.tif" />
+    <EmbeddedResource Include="AlphaForm\skin2.tif" />
     <Content Include="FlatForm\Form\frameground.png" />
     <EmbeddedResource Include="StanForm\FormFrame\Metro_fringe_bkg.png" />
     <Content Include="StanForm\head.png" />
