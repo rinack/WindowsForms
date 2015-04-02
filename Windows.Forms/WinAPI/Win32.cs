@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -128,6 +129,16 @@ namespace Windows.Forms.Controls.WinAPI
                 this.y = y;
             }
         }
+
+        [StructLayout(LayoutKind.Sequential, Pack = 1)]
+        public struct COLORREF
+        {
+            public byte R;
+            public byte G;
+            public byte B;
+            public byte A;
+        }
+
         #endregion
 
         #region Public extern methods
@@ -186,6 +197,44 @@ namespace Windows.Forms.Controls.WinAPI
 
         [DllImport("user32.dll")]
         public static extern int SetWindowLong(IntPtr hwnd, int nIndex, int dwNewLong);
+
+        public static IntPtr SetWindowLong(IntPtr hWnd, int nIndex, IntPtr dwNewLong)
+        {
+            if (IntPtr.Size == 4)
+            {
+                return SetWindowLongPtr32(hWnd, nIndex, dwNewLong);
+            }
+            return SetWindowLongPtr64(hWnd, nIndex, dwNewLong);
+        }
+
+        [SuppressMessage("Microsoft.Portability", "CA1901:PInvokeDeclarationsShouldBePortable")]
+        [DllImport("user32", EntryPoint = "SetWindowLong")]
+        public static extern IntPtr SetWindowLongPtr32(IntPtr hWnd, int nIndex, IntPtr dwNewLong);
+
+        [SuppressMessage("Microsoft.Interoperability", "CA1400:PInvokeEntryPointsShouldExist")]
+        [DllImport("user32", EntryPoint = "SetWindowLongPtr")]
+        public static extern IntPtr SetWindowLongPtr64(IntPtr hWnd, int nIndex, IntPtr dwNewLong);
+
+        [DllImport("user32.dll", ExactSpelling = true, SetLastError = true)]
+        public static extern int UpdateLayeredWindow(IntPtr hwnd, IntPtr hdcDst, ref POINT pptDst, ref SIZE psize, IntPtr hdcSrc, ref POINT pptSrc, Int32 crKey, ref BLENDFUNCTION pblend, Int32 dwFlags);
+
+        [DllImport("user32", CharSet = CharSet.Ansi, SetLastError = true, ExactSpelling = true)]
+        public static extern int SetLayeredWindowAttributes(IntPtr Handle, int crKey, byte bAlpha, int dwFlags);
+
+        [DllImport("user32", CharSet = CharSet.Ansi, SetLastError = true, ExactSpelling = true)]
+        public static extern uint GetLayeredWindowAttributes(IntPtr hwnd, out COLORREF pcrKey, out byte pbAlpha, out uint pwdFlags);
+
+        [DllImport("user32.dll")]
+        public static extern IntPtr GetDesktopWindow();
+
+        [DllImport("user32", CharSet = CharSet.Ansi, SetLastError = true, ExactSpelling = true)]
+        public static extern int InvalidateRgn(IntPtr hWnd, IntPtr hRgn, int bErase);
+
+        [DllImport("user32", CharSet = CharSet.Ansi, SetLastError = true, ExactSpelling = true)]
+        public static extern int ValidateRgn(IntPtr hWnd, IntPtr hRgn);
+
+        [DllImport("user32", CharSet = CharSet.Ansi, SetLastError = true, ExactSpelling = true)]
+        public static extern int ValidateRect(IntPtr hWnd, ref RECT rct);
 
         #endregion
     }
