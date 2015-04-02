@@ -16,7 +16,7 @@ namespace Windows.Test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AlphaForm.Form3());
+            Application.Run(new DemoForm());
         }
     }
 }
