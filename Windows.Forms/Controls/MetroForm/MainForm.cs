@@ -85,8 +85,6 @@ namespace Windows.Forms.Controls.MetroForm
             CanPenetrate();
         }
         #endregion
-        /// 窗体上的所有控件
-        /// </summary>
 
         #region 还原任务栏右键菜单
         protected override CreateParams CreateParams
