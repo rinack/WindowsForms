@@ -84,8 +84,6 @@ namespace Windows.Forms.Controls.WinForm
             CanPenetrate();
         }
         #endregion
-        /// 窗体上的所有控件
-        /// </summary>
        
         #region 还原任务栏右键菜单
         protected override CreateParams CreateParams
@@ -209,13 +207,5 @@ namespace Windows.Forms.Controls.WinForm
             }
         }
         #endregion
-        /// 是否允许改变窗口大小
-        /// </summary>
-      
-        private void SkinForm_Load(object sender, EventArgs e)
-        {
-            
-        }
-
     }
 }
