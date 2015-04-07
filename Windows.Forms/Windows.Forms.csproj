@@ -265,6 +265,7 @@
     <Compile Include="Controls\TextBoxEx\QCTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\TextBoxEx\WatermarkSearchBox.cs" />
     <Compile Include="Controls\TextBoxEx\WMKTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
