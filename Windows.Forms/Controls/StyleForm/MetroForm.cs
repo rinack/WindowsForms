@@ -48,7 +48,7 @@ namespace Windows.Forms.Controls.StyleForm
         /// </summary>
         protected override Rectangle MaxRect
         {
-            get { return new Rectangle(this.Width - this.CloseRect.Width - 30, -1, 30, 27); }
+            get { return new Rectangle(this.Width - this.CloseRect.Width - 30, 1, 30, 27); }
         }
         /// <summary>
         /// 
@@ -58,7 +58,7 @@ namespace Windows.Forms.Controls.StyleForm
             get
             {
                 int x = this.Width - this.CloseRect.Width - this.MaxRect.Width - 27;
-                Rectangle rect = new Rectangle(x, -1, 30, 27);
+                Rectangle rect = new Rectangle(x, 1, 30, 27);
                 return rect;
                 //return new Rectangle(this.Width - this.CloseRect.Width - 28, -1, 28, 20);
             }
@@ -83,7 +83,7 @@ namespace Windows.Forms.Controls.StyleForm
         /// </summary>
         protected override Rectangle CloseRect
         {
-            get { return new Rectangle(this.Width - 30, -1, 30, 27); }
+            get { return new Rectangle(this.Width - 31, 1, 30, 27); }
         }
 
         #endregion
@@ -143,17 +143,17 @@ namespace Windows.Forms.Controls.StyleForm
                     break;
             }
 
-            //绘画边框
-            g.DrawImage(this._borderImage, new Rectangle(0, 0, 10, 10), new Rectangle(5, 5, 10, 10), GraphicsUnit.Pixel);//左上角
-            g.DrawImage(this._borderImage, new Rectangle(0, -5, 10, this.Height + 10), new Rectangle(5, 5, 10, this._borderImage.Height - 10), GraphicsUnit.Pixel);//左边框
-            g.DrawImage(this._borderImage, new Rectangle(-5, this.Height - 10, 10, 10), new Rectangle(0, this._borderImage.Height - 15, 10, 10), GraphicsUnit.Pixel);//左下角
-            g.DrawImage(this._borderImage, new Rectangle(this.Width - 9, -5, 10, 10), new Rectangle(20, 0, 10, 10), GraphicsUnit.Pixel);//右上角
-            g.DrawImage(this._borderImage, new Rectangle(this.Width - 9, -5, 10, this.Height + 10), new Rectangle(20, 5, 10, this._borderImage.Height - 10), GraphicsUnit.Pixel);//右边框
-            g.DrawImage(this._borderImage, new Rectangle(this.Width - 9, this.Height - 10, 10, 10), new Rectangle(20, this._borderImage.Height - 15, 10, 10), GraphicsUnit.Pixel);//右下角
-
-            g.DrawImage(this._borderImage, new Rectangle(5, -5, this.Width - 10, 18), new Rectangle(12, 0, 6, 18), GraphicsUnit.Pixel);
-            g.DrawImage(this._borderImage, new Rectangle(5, this.Height - 6, this.Width - 10, 18), new Rectangle(12, 0, 6, 18), GraphicsUnit.Pixel);
-
+            #region //绘画边框
+            //g.DrawImage(this._borderImage, new Rectangle(0, 0, 10, 10), new Rectangle(5, 5, 10, 10), GraphicsUnit.Pixel);//左上角
+            //g.DrawImage(this._borderImage, new Rectangle(0, -5, 10, this.Height + 10), new Rectangle(5, 5, 10, this._borderImage.Height - 10), GraphicsUnit.Pixel);//左边框
+            //g.DrawImage(this._borderImage, new Rectangle(-5, this.Height - 10, 10, 10), new Rectangle(0, this._borderImage.Height - 15, 10, 10), GraphicsUnit.Pixel);//左下角
+            //g.DrawImage(this._borderImage, new Rectangle(this.Width - 9, -5, 10, 10), new Rectangle(20, 0, 10, 10), GraphicsUnit.Pixel);//右上角
+            //g.DrawImage(this._borderImage, new Rectangle(this.Width - 9, -5, 10, this.Height + 10), new Rectangle(20, 5, 10, this._borderImage.Height - 10), GraphicsUnit.Pixel);//右边框
+            //g.DrawImage(this._borderImage, new Rectangle(this.Width - 9, this.Height - 10, 10, 10), new Rectangle(20, this._borderImage.Height - 15, 10, 10), GraphicsUnit.Pixel);//右下角
+            //g.DrawImage(this._borderImage, new Rectangle(5, -5, this.Width - 10, 18), new Rectangle(12, 0, 6, 18), GraphicsUnit.Pixel);
+            //g.DrawImage(this._borderImage, new Rectangle(5, this.Height - 6, this.Width - 10, 18), new Rectangle(12, 0, 6, 18), GraphicsUnit.Pixel);
+            #endregion
+            
             base.OnPaint(e);
         }
 
