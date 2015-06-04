@@ -10,6 +10,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows.Helper", "Windows.Helper\Windows.Helper.csproj", "{B6995ADD-8D5E-4FAC-AE41-D6788FD76418}"
 EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rinack.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Windows.Forms\\Windows.Forms.csproj
+		SccProjectName1 = Windows.Forms
+		SccLocalPath1 = Windows.Forms
+		SccProjectUniqueName2 = Windows.Helper\\Windows.Helper.csproj
+		SccProjectName2 = Windows.Helper
+		SccLocalPath2 = Windows.Helper
+		SccProjectUniqueName3 = Windows.Resource\\Windows.Resource.csproj
+		SccProjectName3 = Windows.Resource
+		SccLocalPath3 = Windows.Resource
+		SccProjectUniqueName4 = Windows.Test\\Windows.Test.csproj
+		SccProjectName4 = Windows.Test
+		SccLocalPath4 = Windows.Test
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
